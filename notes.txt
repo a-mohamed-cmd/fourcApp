@@ -1,0 +1,252 @@
+  Grp_UsersPerssion.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+  Grp_UsersPerssion.BorderColor = Color.FromArgb(CByte(178), CByte(213), CByte(159))
+  Grp_UsersPerssion.BorderRadius = 10
+  Grp_UsersPerssion.BorderThickness = 4
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch12)
+  Grp_UsersPerssion.Controls.Add(Label20)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch11)
+  Grp_UsersPerssion.Controls.Add(Label19)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch10)
+  Grp_UsersPerssion.Controls.Add(Label18)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch9)
+  Grp_UsersPerssion.Controls.Add(Label17)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch8)
+  Grp_UsersPerssion.Controls.Add(Label16)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch7)
+  Grp_UsersPerssion.Controls.Add(Label15)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch6)
+  Grp_UsersPerssion.Controls.Add(Label14)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch5)
+  Grp_UsersPerssion.Controls.Add(Label13)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch4)
+  Grp_UsersPerssion.Controls.Add(Label12)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch3)
+  Grp_UsersPerssion.Controls.Add(Guna2ToggleSwitch2)
+  Grp_UsersPerssion.Controls.Add(Label3)
+  Grp_UsersPerssion.CustomBorderColor = Color.FromArgb(CByte(178), CByte(213), CByte(159))
+  Grp_UsersPerssion.CustomizableEdges = CustomizableEdges67
+  Grp_UsersPerssion.FillColor = Color.Transparent
+  Grp_UsersPerssion.Font = New Font("Cairo SemiBold", 10.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+  Grp_UsersPerssion.ForeColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
+  Grp_UsersPerssion.Location = New Point(12, 254)
+  Grp_UsersPerssion.Name = "Grp_UsersPerssion"
+  Grp_UsersPerssion.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+  Grp_UsersPerssion.Size = New Size(1302, 337)
+  Grp_UsersPerssion.TabIndex = 42
+  Grp_UsersPerssion.Text = "صلاحيات المستخدم"
+  Grp_UsersPerssion.TextAlign = HorizontalAlignment.Right
+
+
+
+
+
+/////////////////////////////////////////////////////////
+ ' 
+ ' Guna2ToggleSwitch12
+ ' 
+ Guna2ToggleSwitch12.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Guna2ToggleSwitch12.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch12.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch12.CheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch12.CheckedState.InnerColor = Color.White
+ Guna2ToggleSwitch12.CustomizableEdges = CustomizableEdges45
+ Guna2ToggleSwitch12.Location = New Point(1253, 502)
+ Guna2ToggleSwitch12.Name = "Guna2ToggleSwitch12"
+ Guna2ToggleSwitch12.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+ Guna2ToggleSwitch12.Size = New Size(35, 20)
+ Guna2ToggleSwitch12.TabIndex = 47
+ Guna2ToggleSwitch12.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch12.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch12.UncheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch12.UncheckedState.InnerColor = Color.White
+
+
+
+
+
+ ' 
+ ' Label20  first cloumn two
+ ' 
+ Label20.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Label20.AutoSize = True
+ Label20.Location = New Point(686, 45)
+ Label20.Name = "Label20"
+ Label20.Size = New Size(108, 26)
+ Label20.TabIndex = 48
+ Label20.Text = "التفعيل / ايقاف"
+ Label20.TextAlign = ContentAlignment.MiddleRight
+ ' 
+ ' Guna2ToggleSwitch11 first cloumn two
+ ' 
+ Guna2ToggleSwitch11.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Guna2ToggleSwitch11.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch11.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch11.CheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch11.CheckedState.InnerColor = Color.White
+ Guna2ToggleSwitch11.CustomizableEdges = CustomizableEdges47
+ Guna2ToggleSwitch11.Location = New Point(800, 48)
+ Guna2ToggleSwitch11.Name = "Guna2ToggleSwitch11"
+ Guna2ToggleSwitch11.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+ Guna2ToggleSwitch11.Size = New Size(35, 20)
+ Guna2ToggleSwitch11.TabIndex = 45
+ Guna2ToggleSwitch11.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch11.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch11.UncheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch11.UncheckedState.InnerColor = Color.White
+ ' 
+ ' Label19 last cloumn one
+ ' 
+ Label19.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Label19.AutoSize = True
+ Label19.Location = New Point(1135, 301)
+ Label19.Name = "Label19"
+ Label19.Size = New Size(108, 26)
+ Label19.TabIndex = 46
+ Label19.Text = "التفعيل / ايقاف"
+ Label19.TextAlign = ContentAlignment.MiddleRight
+ ' 
+ ' Guna2ToggleSwitch10 last cloumn one
+ ' 
+ Guna2ToggleSwitch10.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Guna2ToggleSwitch10.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch10.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+ Guna2ToggleSwitch10.CheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch10.CheckedState.InnerColor = Color.White
+ Guna2ToggleSwitch10.CustomizableEdges = CustomizableEdges49
+ Guna2ToggleSwitch10.Location = New Point(1249, 304)
+ Guna2ToggleSwitch10.Name = "Guna2ToggleSwitch10"
+ Guna2ToggleSwitch10.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+ Guna2ToggleSwitch10.Size = New Size(35, 20)
+ Guna2ToggleSwitch10.TabIndex = 43
+ Guna2ToggleSwitch10.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch10.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+ Guna2ToggleSwitch10.UncheckedState.InnerBorderColor = Color.White
+ Guna2ToggleSwitch10.UncheckedState.InnerColor = Color.White
+ ' 
+ ' Label18
+ ' 
+ Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+ Label18.AutoSize = True
+ Label18.Location = New Point(1135, 269)
+ Label18.Name = "Label18"
+ Label18.Size = New Size(108, 26)
+ Label18.TabIndex = 44
+ Label18.Text = "التفعيل / ايقاف"
+ Label18.TextAlign = ContentAlignment.MiddleRight
+
+' 
+' Guna2ToggleSwitch9
+' 
+Guna2ToggleSwitch9.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Guna2ToggleSwitch9.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch9.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch9.CheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch9.CheckedState.InnerColor = Color.White
+Guna2ToggleSwitch9.CustomizableEdges = CustomizableEdges51
+Guna2ToggleSwitch9.Location = New Point(1249, 272)
+Guna2ToggleSwitch9.Name = "Guna2ToggleSwitch9"
+Guna2ToggleSwitch9.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+Guna2ToggleSwitch9.Size = New Size(35, 20)
+Guna2ToggleSwitch9.TabIndex = 41
+Guna2ToggleSwitch9.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch9.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch9.UncheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch9.UncheckedState.InnerColor = Color.White
+' 
+' Label17
+' 
+Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Label17.AutoSize = True
+Label17.Location = New Point(1135, 237)
+Label17.Name = "Label17"
+Label17.Size = New Size(108, 26)
+Label17.TabIndex = 42
+Label17.Text = "التفعيل / ايقاف"
+Label17.TextAlign = ContentAlignment.MiddleRight
+' 
+' Guna2ToggleSwitch8
+' 
+Guna2ToggleSwitch8.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Guna2ToggleSwitch8.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch8.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch8.CheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch8.CheckedState.InnerColor = Color.White
+Guna2ToggleSwitch8.CustomizableEdges = CustomizableEdges53
+Guna2ToggleSwitch8.Location = New Point(1249, 240)
+Guna2ToggleSwitch8.Name = "Guna2ToggleSwitch8"
+Guna2ToggleSwitch8.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+Guna2ToggleSwitch8.Size = New Size(35, 20)
+Guna2ToggleSwitch8.TabIndex = 39
+Guna2ToggleSwitch8.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch8.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch8.UncheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch8.UncheckedState.InnerColor = Color.White
+
+/////////////////////////////////////
+' 
+' Label3 first
+' 
+Label3.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Label3.AutoSize = True
+Label3.Location = New Point(1135, 45)
+Label3.Name = "Label3"
+Label3.Size = New Size(108, 26)
+Label3.TabIndex = 26
+Label3.Text = "التفعيل / ايقاف"
+Label3.TextAlign = ContentAlignment.MiddleRight
+' 
+' Guna2ShadowPanel1 first
+' 
+Guna2ShadowPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+Guna2ShadowPanel1.BackColor = Color.Transparent
+Guna2ShadowPanel1.Controls.Add(Cmd_Unit)
+Guna2ShadowPanel1.Controls.Add(Label21)
+Guna2ShadowPanel1.Controls.Add(swt_AccontSubActive)
+Guna2ShadowPanel1.Controls.Add(Label11)
+Guna2ShadowPanel1.Controls.Add(Guna2TextBox2)
+Guna2ShadowPanel1.Controls.Add(Label8)
+Guna2ShadowPanel1.Controls.Add(Guna2TextBox1)
+Guna2ShadowPanel1.Controls.Add(Label7)
+Guna2ShadowPanel1.Controls.Add(txt_AccountGeneralNameEn)
+Guna2ShadowPanel1.Controls.Add(txt_AccountGeneralNameAr)
+Guna2ShadowPanel1.Controls.Add(Txt_AccountGeneralCode)
+Guna2ShadowPanel1.Controls.Add(Label6)
+Guna2ShadowPanel1.Controls.Add(Label5)
+Guna2ShadowPanel1.Controls.Add(Label4)
+Guna2ShadowPanel1.FillColor = Color.FromArgb(CByte(178), CByte(213), CByte(159))
+Guna2ShadowPanel1.Font = New Font("Cairo", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+Guna2ShadowPanel1.Location = New Point(2, 4)
+Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
+Guna2ShadowPanel1.ShadowColor = Color.Transparent
+Guna2ShadowPanel1.Size = New Size(1321, 244)
+Guna2ShadowPanel1.TabIndex = 0
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+' 
+' Guna2ToggleSwitch2first cloumn one
+' 
+Guna2ToggleSwitch2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Guna2ToggleSwitch2.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+Guna2ToggleSwitch2.CheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch2.CheckedState.InnerColor = Color.White
+Guna2ToggleSwitch2.CustomizableEdges = CustomizableEdges65
+Guna2ToggleSwitch2.Location = New Point(1249, 48)
+Guna2ToggleSwitch2.Name = "Guna2ToggleSwitch2"
+Guna2ToggleSwitch2.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+Guna2ToggleSwitch2.Size = New Size(35, 20)
+Guna2ToggleSwitch2.TabIndex = 27
+Guna2ToggleSwitch2.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch2.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+Guna2ToggleSwitch2.UncheckedState.InnerBorderColor = Color.White
+Guna2ToggleSwitch2.UncheckedState.InnerColor = Color.White
+' 
+' Label3firt cloumn one
+' 
+Label3.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+Label3.AutoSize = True
+Label3.Location = New Point(1135, 45)
+Label3.Name = "Label3"
+Label3.Size = New Size(108, 26)
+Label3.TabIndex = 26
+Label3.Text = "التفعيل / ايقاف"
+Label3.TextAlign = ContentAlignment.MiddleRight

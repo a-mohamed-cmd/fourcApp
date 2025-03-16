@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <StartupObject>fourcApp.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>My Project\images\tree_trading_icon.ico</ApplicationIcon>
+    <PackageIcon>DALL·E 2025-03-16 02.29.00 - A professional and modern icon for a tree trading software. The icon should feature a stylized tree with vibrant green leaves and a sturdy trunk, comb.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="My Project\images\tree_trading_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="frm_ShowDetailsMove.vb" />
+    <Compile Update="frm_ٍPersonal_Search.vb" />
+    <Compile Update="frm_Items_Search.vb" />
+    <Compile Update="frm_Unit.vb" />
+    <Compile Update="frm_Categorys.vb" />
+    <Compile Update="frm_Store.vb" />
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="frm_ShowDetailsMove.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="frm_ٍPersonal_Search.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="frm_Items_Search.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\images\DALL·E 2025-03-16 02.29.00 - A professional and modern icon for a tree trading software. The icon should feature a stylized tree with vibrant green leaves and a sturdy trunk, comb.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

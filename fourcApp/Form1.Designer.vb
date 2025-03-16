@@ -1,0 +1,438 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
+        Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Panal_Login = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        lbl_Forget = New Label()
+        btn_login = New Guna.UI2.WinForms.Guna2GradientButton()
+        Label1 = New Label()
+        txt_Password = New Guna.UI2.WinForms.Guna2TextBox()
+        txt_UserName = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
+        Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
+        Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
+        Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
+        Panal_ChangePassword = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        txt_Change_ConfigPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        txt_change_Newpassword = New Guna.UI2.WinForms.Guna2TextBox()
+        btn_ChangePassword = New Guna.UI2.WinForms.Guna2GradientButton()
+        Label3 = New Label()
+        txt_change_Oldpassword = New Guna.UI2.WinForms.Guna2TextBox()
+        txt_Change_userName = New Guna.UI2.WinForms.Guna2TextBox()
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Panal_Login.SuspendLayout()
+        Panal_ChangePassword.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' Guna2Elipse1
+        ' 
+        Guna2Elipse1.BorderRadius = 20
+        Guna2Elipse1.TargetControl = Me
+        ' 
+        ' Guna2ShadowForm1
+        ' 
+        Guna2ShadowForm1.BorderRadius = 10
+        Guna2ShadowForm1.TargetForm = Me
+        ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.BorderRadius = 10
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges21
+        Guna2PictureBox1.Image = CType(resources.GetObject("Guna2PictureBox1.Image"), Image)
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(0, -3)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2PictureBox1.Size = New Size(463, 381)
+        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox1.TabIndex = 0
+        Guna2PictureBox1.TabStop = False
+        ' 
+        ' Panal_Login
+        ' 
+        Panal_Login.BackColor = Color.Transparent
+        Panal_Login.Controls.Add(lbl_Forget)
+        Panal_Login.Controls.Add(btn_login)
+        Panal_Login.Controls.Add(Label1)
+        Panal_Login.Controls.Add(txt_Password)
+        Panal_Login.Controls.Add(txt_UserName)
+        Panal_Login.FillColor = Color.Transparent
+        Panal_Login.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Panal_Login.Location = New Point(489, 57)
+        Panal_Login.Name = "Panal_Login"
+        Panal_Login.ShadowColor = Color.White
+        Panal_Login.ShadowDepth = 30
+        Panal_Login.ShadowShift = 10
+        Panal_Login.Size = New Size(233, 256)
+        Panal_Login.TabIndex = 2
+        ' 
+        ' lbl_Forget
+        ' 
+        lbl_Forget.AutoSize = True
+        lbl_Forget.Cursor = Cursors.Hand
+        lbl_Forget.Font = New Font("Segoe UI Semibold", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lbl_Forget.ForeColor = SystemColors.ControlDarkDark
+        lbl_Forget.Location = New Point(68, 224)
+        lbl_Forget.Name = "lbl_Forget"
+        lbl_Forget.Size = New Size(104, 13)
+        lbl_Forget.TabIndex = 4
+        lbl_Forget.Text = "Change Password ?"
+        ' 
+        ' btn_login
+        ' 
+        btn_login.Animated = True
+        btn_login.BorderRadius = 20
+        btn_login.CustomizableEdges = CustomizableEdges15
+        btn_login.DisabledState.BorderColor = Color.DarkGray
+        btn_login.DisabledState.CustomBorderColor = Color.DarkGray
+        btn_login.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btn_login.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btn_login.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btn_login.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
+        btn_login.FillColor2 = Color.FromArgb(CByte(191), CByte(153), CByte(112))
+        btn_login.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btn_login.ForeColor = Color.White
+        btn_login.Location = New Point(19, 167)
+        btn_login.Name = "btn_login"
+        btn_login.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        btn_login.Size = New Size(200, 45)
+        btn_login.TabIndex = 3
+        btn_login.Text = "LOGIN"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(47, 22)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(140, 21)
+        Label1.TabIndex = 2
+        Label1.Text = "Login UserName"
+        ' 
+        ' txt_Password
+        ' 
+        txt_Password.Animated = True
+        txt_Password.BorderRadius = 8
+        txt_Password.CustomizableEdges = CustomizableEdges17
+        txt_Password.DefaultText = ""
+        txt_Password.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_Password.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_Password.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Password.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Password.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_Password.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Password.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_Password.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Password.IconLeft = CType(resources.GetObject("txt_Password.IconLeft"), Image)
+        txt_Password.Location = New Point(19, 105)
+        txt_Password.Name = "txt_Password"
+        txt_Password.PlaceholderForeColor = Color.DarkGray
+        txt_Password.PlaceholderText = "Password"
+        txt_Password.SelectedText = ""
+        txt_Password.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        txt_Password.Size = New Size(200, 36)
+        txt_Password.TabIndex = 1
+        txt_Password.UseSystemPasswordChar = True
+        ' 
+        ' txt_UserName
+        ' 
+        txt_UserName.Animated = True
+        txt_UserName.BorderRadius = 8
+        txt_UserName.CustomizableEdges = CustomizableEdges19
+        txt_UserName.DefaultText = ""
+        txt_UserName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_UserName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_UserName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_UserName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_UserName.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_UserName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_UserName.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_UserName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_UserName.IconLeft = CType(resources.GetObject("txt_UserName.IconLeft"), Image)
+        txt_UserName.Location = New Point(19, 60)
+        txt_UserName.Name = "txt_UserName"
+        txt_UserName.PlaceholderForeColor = Color.DarkGray
+        txt_UserName.PlaceholderText = "User Name"
+        txt_UserName.SelectedText = ""
+        txt_UserName.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txt_UserName.Size = New Size(200, 36)
+        txt_UserName.TabIndex = 0
+        ' 
+        ' Guna2AnimateWindow1
+        ' 
+        Guna2AnimateWindow1.TargetForm = Me
+        ' 
+        ' Guna2DragControl1
+        ' 
+        Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Guna2DragControl1.TargetControl = Me
+        Guna2DragControl1.UseTransparentDrag = True
+        ' 
+        ' Guna2ControlBox1
+        ' 
+        Guna2ControlBox1.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges11
+        Guna2ControlBox1.FillColor = Color.Transparent
+        Guna2ControlBox1.IconColor = Color.Gray
+        Guna2ControlBox1.Location = New Point(694, 6)
+        Guna2ControlBox1.Name = "Guna2ControlBox1"
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2ControlBox1.Size = New Size(32, 23)
+        Guna2ControlBox1.TabIndex = 0
+        ' 
+        ' Guna2ControlBox2
+        ' 
+        Guna2ControlBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges13
+        Guna2ControlBox2.FillColor = Color.Transparent
+        Guna2ControlBox2.IconColor = Color.Gray
+        Guna2ControlBox2.Location = New Point(656, 6)
+        Guna2ControlBox2.Name = "Guna2ControlBox2"
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Guna2ControlBox2.Size = New Size(32, 23)
+        Guna2ControlBox2.TabIndex = 1
+        ' 
+        ' Panal_ChangePassword
+        ' 
+        Panal_ChangePassword.BackColor = Color.Transparent
+        Panal_ChangePassword.Controls.Add(txt_Change_ConfigPassword)
+        Panal_ChangePassword.Controls.Add(txt_change_Newpassword)
+        Panal_ChangePassword.Controls.Add(btn_ChangePassword)
+        Panal_ChangePassword.Controls.Add(Label3)
+        Panal_ChangePassword.Controls.Add(txt_change_Oldpassword)
+        Panal_ChangePassword.Controls.Add(txt_Change_userName)
+        Panal_ChangePassword.FillColor = Color.Transparent
+        Panal_ChangePassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Panal_ChangePassword.Location = New Point(489, 45)
+        Panal_ChangePassword.Name = "Panal_ChangePassword"
+        Panal_ChangePassword.ShadowColor = Color.White
+        Panal_ChangePassword.ShadowDepth = 30
+        Panal_ChangePassword.ShadowShift = 10
+        Panal_ChangePassword.Size = New Size(233, 304)
+        Panal_ChangePassword.TabIndex = 5
+        Panal_ChangePassword.Visible = False
+        ' 
+        ' txt_Change_ConfigPassword
+        ' 
+        txt_Change_ConfigPassword.Animated = True
+        txt_Change_ConfigPassword.BorderRadius = 8
+        txt_Change_ConfigPassword.CustomizableEdges = CustomizableEdges1
+        txt_Change_ConfigPassword.DefaultText = ""
+        txt_Change_ConfigPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_Change_ConfigPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_Change_ConfigPassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Change_ConfigPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Change_ConfigPassword.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_Change_ConfigPassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Change_ConfigPassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_Change_ConfigPassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Change_ConfigPassword.IconLeft = CType(resources.GetObject("txt_Change_ConfigPassword.IconLeft"), Image)
+        txt_Change_ConfigPassword.Location = New Point(19, 200)
+        txt_Change_ConfigPassword.Name = "txt_Change_ConfigPassword"
+        txt_Change_ConfigPassword.PlaceholderForeColor = Color.DarkGray
+        txt_Change_ConfigPassword.PlaceholderText = "Config Password"
+        txt_Change_ConfigPassword.SelectedText = ""
+        txt_Change_ConfigPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txt_Change_ConfigPassword.Size = New Size(200, 36)
+        txt_Change_ConfigPassword.TabIndex = 4
+        txt_Change_ConfigPassword.UseSystemPasswordChar = True
+        ' 
+        ' txt_change_Newpassword
+        ' 
+        txt_change_Newpassword.Animated = True
+        txt_change_Newpassword.BorderRadius = 8
+        txt_change_Newpassword.CustomizableEdges = CustomizableEdges3
+        txt_change_Newpassword.DefaultText = ""
+        txt_change_Newpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_change_Newpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_change_Newpassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_change_Newpassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_change_Newpassword.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_change_Newpassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_change_Newpassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_change_Newpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_change_Newpassword.IconLeft = CType(resources.GetObject("txt_change_Newpassword.IconLeft"), Image)
+        txt_change_Newpassword.Location = New Point(19, 158)
+        txt_change_Newpassword.Name = "txt_change_Newpassword"
+        txt_change_Newpassword.PlaceholderForeColor = Color.DarkGray
+        txt_change_Newpassword.PlaceholderText = "New Password"
+        txt_change_Newpassword.SelectedText = ""
+        txt_change_Newpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txt_change_Newpassword.Size = New Size(200, 36)
+        txt_change_Newpassword.TabIndex = 3
+        txt_change_Newpassword.UseSystemPasswordChar = True
+        ' 
+        ' btn_ChangePassword
+        ' 
+        btn_ChangePassword.Animated = True
+        btn_ChangePassword.BorderRadius = 20
+        btn_ChangePassword.CustomizableEdges = CustomizableEdges5
+        btn_ChangePassword.DisabledState.BorderColor = Color.DarkGray
+        btn_ChangePassword.DisabledState.CustomBorderColor = Color.DarkGray
+        btn_ChangePassword.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btn_ChangePassword.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btn_ChangePassword.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btn_ChangePassword.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
+        btn_ChangePassword.FillColor2 = Color.FromArgb(CByte(191), CByte(153), CByte(112))
+        btn_ChangePassword.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        btn_ChangePassword.ForeColor = Color.White
+        btn_ChangePassword.Location = New Point(19, 247)
+        btn_ChangePassword.Name = "btn_ChangePassword"
+        btn_ChangePassword.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        btn_ChangePassword.Size = New Size(200, 45)
+        btn_ChangePassword.TabIndex = 5
+        btn_ChangePassword.Text = "Change Password"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(47, 22)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(148, 21)
+        Label3.TabIndex = 2
+        Label3.Text = "Change Password"
+        ' 
+        ' txt_change_Oldpassword
+        ' 
+        txt_change_Oldpassword.Animated = True
+        txt_change_Oldpassword.BorderRadius = 8
+        txt_change_Oldpassword.CustomizableEdges = CustomizableEdges7
+        txt_change_Oldpassword.DefaultText = ""
+        txt_change_Oldpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_change_Oldpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_change_Oldpassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_change_Oldpassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_change_Oldpassword.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_change_Oldpassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_change_Oldpassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_change_Oldpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_change_Oldpassword.IconLeft = CType(resources.GetObject("txt_change_Oldpassword.IconLeft"), Image)
+        txt_change_Oldpassword.Location = New Point(19, 105)
+        txt_change_Oldpassword.Name = "txt_change_Oldpassword"
+        txt_change_Oldpassword.PlaceholderForeColor = Color.DarkGray
+        txt_change_Oldpassword.PlaceholderText = "Old Password"
+        txt_change_Oldpassword.SelectedText = ""
+        txt_change_Oldpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txt_change_Oldpassword.Size = New Size(200, 36)
+        txt_change_Oldpassword.TabIndex = 1
+        txt_change_Oldpassword.UseSystemPasswordChar = True
+        ' 
+        ' txt_Change_userName
+        ' 
+        txt_Change_userName.Animated = True
+        txt_Change_userName.BorderRadius = 8
+        txt_Change_userName.CustomizableEdges = CustomizableEdges9
+        txt_Change_userName.DefaultText = ""
+        txt_Change_userName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txt_Change_userName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txt_Change_userName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Change_userName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txt_Change_userName.FillColor = Color.FromArgb(CByte(229), CByte(229), CByte(229))
+        txt_Change_userName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Change_userName.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold)
+        txt_Change_userName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txt_Change_userName.IconLeft = CType(resources.GetObject("txt_Change_userName.IconLeft"), Image)
+        txt_Change_userName.Location = New Point(19, 60)
+        txt_Change_userName.Name = "txt_Change_userName"
+        txt_Change_userName.PlaceholderForeColor = Color.DarkGray
+        txt_Change_userName.PlaceholderText = "User Name"
+        txt_Change_userName.SelectedText = ""
+        txt_Change_userName.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txt_Change_userName.Size = New Size(200, 36)
+        txt_Change_userName.TabIndex = 0
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 14F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(196), CByte(207), CByte(137))
+        ClientSize = New Size(738, 376)
+        Controls.Add(Panal_ChangePassword)
+        Controls.Add(Guna2ControlBox1)
+        Controls.Add(Guna2ControlBox2)
+        Controls.Add(Panal_Login)
+        Controls.Add(Guna2PictureBox1)
+        Font = New Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        FormBorderStyle = FormBorderStyle.None
+        Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Login To Fourc"
+        CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        Panal_Login.ResumeLayout(False)
+        Panal_Login.PerformLayout()
+        Panal_ChangePassword.ResumeLayout(False)
+        Panal_ChangePassword.PerformLayout()
+        ResumeLayout(False)
+    End Sub
+
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2ShadowForm1 As Guna.UI2.WinForms.Guna2ShadowForm
+    Friend WithEvents Panal_Login As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents txt_UserName As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txt_Password As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btn_login As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents lbl_Forget As Label
+    Friend WithEvents Guna2ControlBox2 As Guna.UI2.WinForms.Guna2ControlBox
+    Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
+    Friend WithEvents Panal_ChangePassword As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents txt_Change_ConfigPassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txt_change_Newpassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btn_ChangePassword As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txt_change_Oldpassword As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txt_Change_userName As Guna.UI2.WinForms.Guna2TextBox
+
+End Class
