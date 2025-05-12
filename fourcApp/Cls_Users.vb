@@ -472,6 +472,7 @@ Public Class Cls_Users
 
     End Sub
     Public Shared Function LoginVaidateType(type As String) As Boolean
+        If DtLogin.Rows.Count = Nothing Then Return False
         For Each vaildate In DtLogin.Rows
             If vaildate("userperType_Name") = type Then
                 LoginVaidateType = vaildate("userPer_ISActive")

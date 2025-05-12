@@ -36,7 +36,11 @@ Public Class UC_CUR
         End Set
     End Property
 
+
     Public Property ColorToolstrip As Color
+        '=======
+        '    Public Property colorToolstrip As Color
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Get
             Return Me.ToolStrip2.BackColor
         End Get
@@ -61,7 +65,11 @@ Public Class UC_CUR
     ''' <summary>
     ''' السجل الاول
     ''' </summary>
+
     Public Sub Cur_first()
+        '=======
+        '    Public Sub cur_first()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Cur1.Position = 0
         Txt_FileNo.Text = File_No()
         Txt_FileNo.TextAlign = ContentAlignment.BottomCenter
@@ -76,7 +84,11 @@ Public Class UC_CUR
     ''' <summary>
     ''' السجل التالي
     ''' </summary>
+
     Public Sub Cur_next()
+        '=======
+        '    Public Sub cur_next()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Cur1.Position += 1
         Txt_FileNo.Text = File_No()
     End Sub

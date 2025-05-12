@@ -24,6 +24,7 @@ Partial Class UC_CUR
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UC_CUR))
+
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -32,6 +33,16 @@ Partial Class UC_CUR
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
+        'Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
         ToolStrip2 = New ToolStrip()
         ToolStripLabel1 = New ToolStripLabel()
         ToolStripSeparator10 = New ToolStripSeparator()
@@ -59,10 +70,17 @@ Partial Class UC_CUR
         ' 
         ToolStrip2.Dock = DockStyle.Bottom
         ToolStrip2.Items.AddRange(New ToolStripItem() {ToolStripLabel1, ToolStripSeparator10, Btn_First, ToolStripSeparator6, Btn_After, ToolStripSeparator9, Txt_FileNo, ToolStripSeparator5, Btn_Next, ToolStripSeparator7, Btn_last, ToolStripSeparator8})
+
         ToolStrip2.Location = New Point(0, 53)
         ToolStrip2.Name = "ToolStrip2"
         ToolStrip2.RightToLeft = RightToLeft.No
         ToolStrip2.Size = New Size(460, 25)
+        '=======
+        '        ToolStrip2.Location = New Point(0, 49)
+        '        ToolStrip2.Name = "ToolStrip2"
+        '        ToolStrip2.RightToLeft = RightToLeft.No
+        '        ToolStrip2.Size = New Size(456, 25)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         ToolStrip2.TabIndex = 22
         ' 
         ' ToolStripLabel1
@@ -163,7 +181,9 @@ Partial Class UC_CUR
         Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
         Guna2ShadowPanel1.Radius = 13
         Guna2ShadowPanel1.ShadowColor = Color.Transparent
+
         Guna2ShadowPanel1.Size = New Size(460, 48)
+
         Guna2ShadowPanel1.TabIndex = 24
         ' 
         ' btn_newItem
@@ -171,7 +191,11 @@ Partial Class UC_CUR
         btn_newItem.Anchor = AnchorStyles.Top
         btn_newItem.Animated = True
         btn_newItem.BorderRadius = 25
+
         btn_newItem.CustomizableEdges = CustomizableEdges1
+        '=======
+        '        btn_newItem.CustomizableEdges = CustomizableEdges9
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_newItem.DisabledState.BorderColor = Color.DarkGray
         btn_newItem.DisabledState.CustomBorderColor = Color.DarkGray
         btn_newItem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -179,9 +203,15 @@ Partial Class UC_CUR
         btn_newItem.FillColor = Color.FromArgb(CByte(163), CByte(223), CByte(187))
         btn_newItem.Font = New Font("Cairo SemiBold", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn_newItem.ForeColor = Color.White
+
         btn_newItem.Location = New Point(324, 3)
         btn_newItem.Name = "btn_newItem"
         btn_newItem.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        '=======
+        '        btn_newItem.Location = New Point(322, 3)
+        '        btn_newItem.Name = "btn_newItem"
+        '        btn_newItem.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_newItem.Size = New Size(86, 41)
         btn_newItem.TabIndex = 3
         btn_newItem.Text = "جـــديــد"
@@ -191,16 +221,26 @@ Partial Class UC_CUR
         Btn_AddItem.Anchor = AnchorStyles.Top
         Btn_AddItem.Animated = True
         Btn_AddItem.BorderRadius = 25
+
         Btn_AddItem.CustomizableEdges = CustomizableEdges3
+        '=======
+        '        Btn_AddItem.CustomizableEdges = CustomizableEdges11
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Btn_AddItem.DisabledState.BorderColor = Color.DarkGray
         Btn_AddItem.DisabledState.CustomBorderColor = Color.DarkGray
         Btn_AddItem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Btn_AddItem.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Btn_AddItem.Font = New Font("Cairo SemiBold", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Btn_AddItem.ForeColor = Color.White
+
         Btn_AddItem.Location = New Point(233, 3)
         Btn_AddItem.Name = "Btn_AddItem"
         Btn_AddItem.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        '=======
+        '        Btn_AddItem.Location = New Point(231, 3)
+        '        Btn_AddItem.Name = "Btn_AddItem"
+        '        Btn_AddItem.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Btn_AddItem.Size = New Size(86, 41)
         Btn_AddItem.TabIndex = 2
         Btn_AddItem.Text = "إضـــافه"
@@ -210,7 +250,11 @@ Partial Class UC_CUR
         btn_updateItem.Anchor = AnchorStyles.Top
         btn_updateItem.Animated = True
         btn_updateItem.BorderRadius = 25
+
         btn_updateItem.CustomizableEdges = CustomizableEdges5
+        '=======
+        '        btn_updateItem.CustomizableEdges = CustomizableEdges13
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_updateItem.DisabledState.BorderColor = Color.DarkGray
         btn_updateItem.DisabledState.CustomBorderColor = Color.DarkGray
         btn_updateItem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -218,9 +262,15 @@ Partial Class UC_CUR
         btn_updateItem.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         btn_updateItem.Font = New Font("Cairo SemiBold", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn_updateItem.ForeColor = Color.White
+
         btn_updateItem.Location = New Point(142, 3)
         btn_updateItem.Name = "btn_updateItem"
         btn_updateItem.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        '=======
+        '        btn_updateItem.Location = New Point(140, 3)
+        '        btn_updateItem.Name = "btn_updateItem"
+        '        btn_updateItem.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_updateItem.Size = New Size(86, 41)
         btn_updateItem.TabIndex = 1
         btn_updateItem.Text = "تعـــديل"
@@ -230,7 +280,11 @@ Partial Class UC_CUR
         btn_DeleteItem.Anchor = AnchorStyles.Top
         btn_DeleteItem.Animated = True
         btn_DeleteItem.BorderRadius = 25
+
         btn_DeleteItem.CustomizableEdges = CustomizableEdges7
+        '=======
+        '        btn_DeleteItem.CustomizableEdges = CustomizableEdges15
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_DeleteItem.DisabledState.BorderColor = Color.DarkGray
         btn_DeleteItem.DisabledState.CustomBorderColor = Color.DarkGray
         btn_DeleteItem.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -238,9 +292,15 @@ Partial Class UC_CUR
         btn_DeleteItem.FillColor = Color.FromArgb(CByte(252), CByte(68), CByte(56))
         btn_DeleteItem.Font = New Font("Cairo SemiBold", 11F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btn_DeleteItem.ForeColor = Color.White
+
         btn_DeleteItem.Location = New Point(51, 3)
         btn_DeleteItem.Name = "btn_DeleteItem"
         btn_DeleteItem.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        '=======
+        '        btn_DeleteItem.Location = New Point(49, 3)
+        '        btn_DeleteItem.Name = "btn_DeleteItem"
+        '        btn_DeleteItem.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         btn_DeleteItem.Size = New Size(86, 41)
         btn_DeleteItem.TabIndex = 0
         btn_DeleteItem.Text = "حــــذف"
@@ -250,11 +310,19 @@ Partial Class UC_CUR
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Transparent
+
+        '=======
+        '        BorderStyle = BorderStyle.Fixed3D
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Controls.Add(Guna2ShadowPanel1)
         Controls.Add(ToolStrip2)
         Margin = New Padding(4, 3, 4, 3)
         Name = "UC_CUR"
+
         Size = New Size(460, 78)
+        '=======
+        '        Size = New Size(456, 74)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         ToolStrip2.ResumeLayout(False)
         ToolStrip2.PerformLayout()
         Guna2ShadowPanel1.ResumeLayout(False)

@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     Private _Users As New Cls_Users
 
     Public Property Users As Cls_Users
@@ -15,11 +16,13 @@
     End Sub
 
     Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles btn_login.Click
+
         Users.User_userName = txt_UserName.Text
         Users.User_password = txt_Password.Text
         If Users.Login_User() = 0 Then MsgBox("عفوا الباسورد او اسم المستخدم خطاً") : Exit Sub
         If Users.LoginVaildate() = False Then MsgBox("هذا المستخدم تم ايقاف صلاحياته") : Exit Sub
         GeneralForm.Show()
+
         Hide()
     End Sub
 
@@ -39,5 +42,10 @@
         Panal_ChangePassword.Visible = False
         Panal_Login.Visible = True
 
+
+
+        GeneralForm.Show()
+        Me.Hide()
+ 
     End Sub
 End Class

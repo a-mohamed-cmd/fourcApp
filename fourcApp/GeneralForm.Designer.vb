@@ -47,6 +47,7 @@ Partial Class GeneralForm
         ToolStripSeparator4 = New ToolStripSeparator()
         PrintToolStripMenuItem = New ToolStripMenuItem()
         المخازنToolStripMenuItem = New ToolStripMenuItem()
+        الوحــــــــداتToolStripMenuItem = New ToolStripMenuItem()
         الأقسامToolStripMenuItem = New ToolStripMenuItem()
         تقاريرالمخازنToolStripMenuItem = New ToolStripMenuItem()
         PrintPreviewToolStripMenuItem = New ToolStripMenuItem()
@@ -88,7 +89,6 @@ Partial Class GeneralForm
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(components)
-        الوحــــــــداتToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip.SuspendLayout()
         StatusStrip.SuspendLayout()
         Guna2Panel1.SuspendLayout()
@@ -104,7 +104,7 @@ Partial Class GeneralForm
         MenuStrip.MdiWindowListItem = WindowsMenu
         MenuStrip.Name = "MenuStrip"
         MenuStrip.Padding = New Padding(8, 2, 0, 2)
-        MenuStrip.Size = New Size(484, 24)
+        MenuStrip.Size = New Size(364, 24)
         MenuStrip.TabIndex = 5
         MenuStrip.Text = "MenuStrip"
         ' 
@@ -118,7 +118,7 @@ Partial Class GeneralForm
         ' 
         ' NewToolStripMenuItem
         ' 
-        NewToolStripMenuItem.Image = CType(resources.GetObject("NewToolStripMenuItem.Image"), Image)
+        NewToolStripMenuItem.Image = My.Resources.Resources.icons8_trees_48
         NewToolStripMenuItem.ImageTransparentColor = Color.Black
         NewToolStripMenuItem.Name = "NewToolStripMenuItem"
         NewToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.N
@@ -127,7 +127,7 @@ Partial Class GeneralForm
         ' 
         ' OpenToolStripMenuItem
         ' 
-        OpenToolStripMenuItem.Image = CType(resources.GetObject("OpenToolStripMenuItem.Image"), Image)
+        OpenToolStripMenuItem.Image = My.Resources.Resources.icons8_supplier_48
         OpenToolStripMenuItem.ImageTransparentColor = Color.Black
         OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
         OpenToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.O
@@ -141,7 +141,7 @@ Partial Class GeneralForm
         ' 
         ' SaveToolStripMenuItem
         ' 
-        SaveToolStripMenuItem.Image = CType(resources.GetObject("SaveToolStripMenuItem.Image"), Image)
+        SaveToolStripMenuItem.Image = My.Resources.Resources.icons8_customers_48
         SaveToolStripMenuItem.ImageTransparentColor = Color.Black
         SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
         SaveToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.S
@@ -151,37 +151,37 @@ Partial Class GeneralForm
         ' SaveAsToolStripMenuItem
         ' 
         SaveAsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {سندمشترياتToolStripMenuItem, سندمبيعاتToolStripMenuItem, سندتحويلToolStripMenuItem, سندإهـــلاكToolStripMenuItem})
-        SaveAsToolStripMenuItem.Image = CType(resources.GetObject("SaveAsToolStripMenuItem.Image"), Image)
+        SaveAsToolStripMenuItem.Image = My.Resources.Resources.icons8_payments_64
         SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
         SaveAsToolStripMenuItem.Size = New Size(180, 22)
         SaveAsToolStripMenuItem.Text = "سنــــــــــــدات"
         ' 
         ' سندمشترياتToolStripMenuItem
         ' 
-        سندمشترياتToolStripMenuItem.Image = CType(resources.GetObject("سندمشترياتToolStripMenuItem.Image"), Image)
+        سندمشترياتToolStripMenuItem.Image = My.Resources.Resources.icons8_receipt_50
         سندمشترياتToolStripMenuItem.Name = "سندمشترياتToolStripMenuItem"
-        سندمشترياتToolStripMenuItem.Size = New Size(142, 22)
+        سندمشترياتToolStripMenuItem.Size = New Size(180, 22)
         سندمشترياتToolStripMenuItem.Text = "سند مشتريات"
         ' 
         ' سندمبيعاتToolStripMenuItem
         ' 
-        سندمبيعاتToolStripMenuItem.Image = CType(resources.GetObject("سندمبيعاتToolStripMenuItem.Image"), Image)
+        سندمبيعاتToolStripMenuItem.Image = My.Resources.Resources.icons8_sales_50
         سندمبيعاتToolStripMenuItem.Name = "سندمبيعاتToolStripMenuItem"
-        سندمبيعاتToolStripMenuItem.Size = New Size(142, 22)
+        سندمبيعاتToolStripMenuItem.Size = New Size(180, 22)
         سندمبيعاتToolStripMenuItem.Text = "سند مبيعات"
         ' 
         ' سندتحويلToolStripMenuItem
         ' 
-        سندتحويلToolStripMenuItem.Image = CType(resources.GetObject("سندتحويلToolStripMenuItem.Image"), Image)
+        سندتحويلToolStripMenuItem.Image = My.Resources.Resources.icons8_transfer_48
         سندتحويلToolStripMenuItem.Name = "سندتحويلToolStripMenuItem"
-        سندتحويلToolStripMenuItem.Size = New Size(142, 22)
+        سندتحويلToolStripMenuItem.Size = New Size(180, 22)
         سندتحويلToolStripMenuItem.Text = "سند تحويل"
         ' 
         ' سندإهـــلاكToolStripMenuItem
         ' 
-        سندإهـــلاكToolStripMenuItem.Image = CType(resources.GetObject("سندإهـــلاكToolStripMenuItem.Image"), Image)
+        سندإهـــلاكToolStripMenuItem.Image = My.Resources.Resources.icons8_negative_equity_50
         سندإهـــلاكToolStripMenuItem.Name = "سندإهـــلاكToolStripMenuItem"
-        سندإهـــلاكToolStripMenuItem.Size = New Size(142, 22)
+        سندإهـــلاكToolStripMenuItem.Size = New Size(180, 22)
         سندإهـــلاكToolStripMenuItem.Text = "سند إهـــلاك"
         ' 
         ' ToolStripSeparator4
@@ -192,7 +192,6 @@ Partial Class GeneralForm
         ' PrintToolStripMenuItem
         ' 
         PrintToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {المخازنToolStripMenuItem, الوحــــــــداتToolStripMenuItem, الأقسامToolStripMenuItem, تقاريرالمخازنToolStripMenuItem})
-        PrintToolStripMenuItem.Image = CType(resources.GetObject("PrintToolStripMenuItem.Image"), Image)
         PrintToolStripMenuItem.ImageTransparentColor = Color.Black
         PrintToolStripMenuItem.Name = "PrintToolStripMenuItem"
         PrintToolStripMenuItem.Size = New Size(180, 22)
@@ -204,6 +203,13 @@ Partial Class GeneralForm
         المخازنToolStripMenuItem.Name = "المخازنToolStripMenuItem"
         المخازنToolStripMenuItem.Size = New Size(180, 22)
         المخازنToolStripMenuItem.Text = "الفـــــــــــروع"
+        ' 
+        ' الوحــــــــداتToolStripMenuItem
+        ' 
+        الوحــــــــداتToolStripMenuItem.Image = My.Resources.Resources.icons8_unit_64
+        الوحــــــــداتToolStripMenuItem.Name = "الوحــــــــداتToolStripMenuItem"
+        الوحــــــــداتToolStripMenuItem.Size = New Size(180, 22)
+        الوحــــــــداتToolStripMenuItem.Text = "الوحــــــــدات"
         ' 
         ' الأقسامToolStripMenuItem
         ' 
@@ -253,7 +259,7 @@ Partial Class GeneralForm
         ' 
         ' UndoToolStripMenuItem
         ' 
-        UndoToolStripMenuItem.Image = CType(resources.GetObject("UndoToolStripMenuItem.Image"), Image)
+        UndoToolStripMenuItem.Image = My.Resources.Resources.icons8_tree_48
         UndoToolStripMenuItem.ImageTransparentColor = Color.Black
         UndoToolStripMenuItem.Name = "UndoToolStripMenuItem"
         UndoToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.Z
@@ -262,7 +268,7 @@ Partial Class GeneralForm
         ' 
         ' RedoToolStripMenuItem
         ' 
-        RedoToolStripMenuItem.Image = CType(resources.GetObject("RedoToolStripMenuItem.Image"), Image)
+        RedoToolStripMenuItem.Image = My.Resources.Resources.icons8_payments_64
         RedoToolStripMenuItem.ImageTransparentColor = Color.Black
         RedoToolStripMenuItem.Name = "RedoToolStripMenuItem"
         RedoToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.Y
@@ -322,9 +328,9 @@ Partial Class GeneralForm
         ' 
         ' ToolBarToolStripMenuItem
         ' 
-        ToolBarToolStripMenuItem.Image = CType(resources.GetObject("ToolBarToolStripMenuItem.Image"), Image)
+        ToolBarToolStripMenuItem.Image = My.Resources.Resources.icons8_user_40
         ToolBarToolStripMenuItem.Name = "ToolBarToolStripMenuItem"
-        ToolBarToolStripMenuItem.Size = New Size(159, 22)
+        ToolBarToolStripMenuItem.Size = New Size(180, 22)
         ToolBarToolStripMenuItem.Text = "اداره المستخدمين"
         ' 
         ' StatusBarToolStripMenuItem
@@ -333,7 +339,7 @@ Partial Class GeneralForm
         StatusBarToolStripMenuItem.CheckOnClick = True
         StatusBarToolStripMenuItem.CheckState = CheckState.Checked
         StatusBarToolStripMenuItem.Name = "StatusBarToolStripMenuItem"
-        StatusBarToolStripMenuItem.Size = New Size(159, 22)
+        StatusBarToolStripMenuItem.Size = New Size(180, 22)
         StatusBarToolStripMenuItem.Text = "&Status Bar"
         ' 
         ' ToolsMenu
@@ -518,13 +524,6 @@ Partial Class GeneralForm
         ' 
         Guna2AnimateWindow1.TargetForm = Me
         ' 
-        ' الوحــــــــداتToolStripMenuItem
-        ' 
-        الوحــــــــداتToolStripMenuItem.Image = My.Resources.Resources.icons8_unit_64
-        الوحــــــــداتToolStripMenuItem.Name = "الوحــــــــداتToolStripMenuItem"
-        الوحــــــــداتToolStripMenuItem.Size = New Size(180, 22)
-        الوحــــــــداتToolStripMenuItem.Text = "الوحــــــــدات"
-        ' 
         ' GeneralForm
         ' 
         AutoScaleDimensions = New SizeF(8F, 17F)
@@ -602,6 +601,7 @@ Partial Class GeneralForm
     Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
+
     Friend WithEvents سندمشترياتToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents سندمبيعاتToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents سندتحويلToolStripMenuItem As ToolStripMenuItem
@@ -610,5 +610,6 @@ Partial Class GeneralForm
     Friend WithEvents الأقسامToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents تقاريرالمخازنToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents الوحــــــــداتToolStripMenuItem As ToolStripMenuItem
+
 
 End Class

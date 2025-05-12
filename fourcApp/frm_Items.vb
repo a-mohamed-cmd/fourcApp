@@ -1,6 +1,7 @@
 ﻿Imports System.Drawing.Imaging
 
 Public Class frm_Items
+
     Private _cur As CurrencyManager
     Private _dt As New DataTable
     Private _item As New Items
@@ -148,4 +149,6 @@ Public Class frm_Items
         Dim details As New frm_ShowDetailsMove(Me.Item, info, Department)
         details.ShowDialog()
     End Sub
+
+
 End Class

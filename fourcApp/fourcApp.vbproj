@@ -7,7 +7,8 @@
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <ApplicationIcon>My Project\images\tree_trading_icon.ico</ApplicationIcon>
-    <PackageIcon>DALL·E 2025-03-16 02.29.00 - A professional and modern icon for a tree trading software. The icon should feature a stylized tree with vibrant green leaves and a sturdy trunk, comb.jpg</PackageIcon>
+    <!-- تأكد من استخدام ملف .ico صالح هنا -->
+    <PackageIcon>My Project\images\tree_trading_icon.ico</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -66,7 +67,8 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Update="My Project\images\DALL·E 2025-03-16 02.29.00 - A professional and modern icon for a tree trading software. The icon should feature a stylized tree with vibrant green leaves and a sturdy trunk, comb.jpg">
+    <!-- تأكد أن هذا الملف مستخدم للعرض فقط وليس كـ PackageIcon -->
+    <None Update="My Project\images\DALL-E_Tree_Trading_Concept.jpg">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

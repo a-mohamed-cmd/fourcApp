@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frm_Items
     Inherits System.Windows.Forms.Form
 
@@ -20,25 +20,42 @@ Partial Class frm_Items
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
+
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        '=======
+        '    <System.Diagnostics.DebuggerStepThrough()> _
+        '    Private Sub InitializeComponent()
+        'Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        '<<<<<<< HEAD
+        '=======
+        'Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        'Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        'Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -53,6 +70,13 @@ Partial Class frm_Items
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        '<<<<<<< HEAD
+        '=======
+        'Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        'Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Items))
         Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
@@ -61,9 +85,19 @@ Partial Class frm_Items
         Label15 = New Label()
         txt_ItemAvgCost = New Guna.UI2.WinForms.Guna2TextBox()
         Label14 = New Label()
+
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         dgv_ItemsMove = New Guna.UI2.WinForms.Guna2DataGridView()
         panal_iteminfo = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        '=======
+        'txt_ItemLastPriceP = New Guna.UI2.WinForms.Guna2TextBox()
+        'Label13 = New Label()
+        'txt_ItemLastPriceS = New Guna.UI2.WinForms.Guna2TextBox()
+        'Label12 = New Label()
+        'Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        'dgv_ItemsMove = New Guna.UI2.WinForms.Guna2DataGridView()
+        'Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemPriceSell = New Guna.UI2.WinForms.Guna2TextBox()
         txt_ItemNameEn = New Guna.UI2.WinForms.Guna2TextBox()
         txt_ItemNameAr = New Guna.UI2.WinForms.Guna2TextBox()
@@ -89,7 +123,11 @@ Partial Class frm_Items
         Guna2ShadowPanel2.SuspendLayout()
         Guna2Panel2.SuspendLayout()
         CType(dgv_ItemsMove, ComponentModel.ISupportInitialize).BeginInit()
+
         panal_iteminfo.SuspendLayout()
+        '=======
+        '        Guna2ShadowPanel1.SuspendLayout()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         SuspendLayout()
         ' 
         ' Guna2ControlBox1
@@ -112,11 +150,19 @@ Partial Class frm_Items
         Guna2Panel1.BorderRadius = 10
         Guna2Panel1.Controls.Add(Guna2ShadowPanel2)
         Guna2Panel1.Controls.Add(Guna2Panel2)
+
         Guna2Panel1.Controls.Add(panal_iteminfo)
         Guna2Panel1.CustomizableEdges = CustomizableEdges27
         Guna2Panel1.Location = New Point(0, 94)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        ''=======
+        'Guna2Panel1.Controls.Add(Guna2ShadowPanel1)
+        'Guna2Panel1.CustomizableEdges = CustomizableEdges31
+        'Guna2Panel1.Location = New Point(0, 94)
+        'Guna2Panel1.Name = "Guna2Panel1"
+        'Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Guna2Panel1.Size = New Size(1327, 613)
         Guna2Panel1.TabIndex = 1
         ' 
@@ -127,6 +173,13 @@ Partial Class frm_Items
         Guna2ShadowPanel2.Controls.Add(Label15)
         Guna2ShadowPanel2.Controls.Add(txt_ItemAvgCost)
         Guna2ShadowPanel2.Controls.Add(Label14)
+        '<<<<<<< HEAD
+        '=======
+        'Guna2ShadowPanel2.Controls.Add(txt_ItemLastPriceP)
+        'Guna2ShadowPanel2.Controls.Add(Label13)
+        'Guna2ShadowPanel2.Controls.Add(txt_ItemLastPriceS)
+        'Guna2ShadowPanel2.Controls.Add(Label12)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Guna2ShadowPanel2.FillColor = Color.Transparent
         Guna2ShadowPanel2.Font = New Font("Cairo SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2ShadowPanel2.ForeColor = SystemColors.ControlDarkDark
@@ -134,7 +187,11 @@ Partial Class frm_Items
         Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
         Guna2ShadowPanel2.Radius = 12
         Guna2ShadowPanel2.ShadowColor = Color.FromArgb(CByte(191), CByte(203), CByte(136))
+
         Guna2ShadowPanel2.Size = New Size(285, 128)
+        '=======
+        '        Guna2ShadowPanel2.Size = New Size(285, 179)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Guna2ShadowPanel2.TabIndex = 2
         ' 
         ' txt_ItemAvailableQty
@@ -149,10 +206,14 @@ Partial Class frm_Items
         txt_ItemAvailableQty.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txt_ItemAvailableQty.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         txt_ItemAvailableQty.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_ItemAvailableQty.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        txt_ItemAvailableQty.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
         txt_ItemAvailableQty.ForeColor = Color.White
         txt_ItemAvailableQty.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+
         txt_ItemAvailableQty.Location = New Point(19, 71)
+        '=======
+        '        txt_ItemAvailableQty.Location = New Point(19, 130)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemAvailableQty.Name = "txt_ItemAvailableQty"
         txt_ItemAvailableQty.PlaceholderText = ""
         txt_ItemAvailableQty.ReadOnly = True
@@ -166,7 +227,11 @@ Partial Class frm_Items
         ' 
         Label15.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label15.AutoSize = True
+
         Label15.Location = New Point(174, 74)
+        '=======
+        '        Label15.Location = New Point(174, 133)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Label15.Name = "Label15"
         Label15.Size = New Size(93, 24)
         Label15.TabIndex = 15
@@ -185,10 +250,14 @@ Partial Class frm_Items
         txt_ItemAvgCost.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txt_ItemAvgCost.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         txt_ItemAvgCost.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_ItemAvgCost.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        txt_ItemAvgCost.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
         txt_ItemAvgCost.ForeColor = Color.White
         txt_ItemAvgCost.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+
         txt_ItemAvgCost.Location = New Point(19, 35)
+        '=======
+        '        txt_ItemAvgCost.Location = New Point(19, 94)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemAvgCost.Name = "txt_ItemAvgCost"
         txt_ItemAvgCost.PlaceholderText = ""
         txt_ItemAvgCost.ReadOnly = True
@@ -202,13 +271,18 @@ Partial Class frm_Items
         ' 
         Label14.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label14.AutoSize = True
+
         Label14.Location = New Point(170, 38)
+        '=======
+        '        Label14.Location = New Point(170, 97)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Label14.Name = "Label14"
         Label14.Size = New Size(97, 24)
         Label14.TabIndex = 15
         Label14.Text = "متوسط التكلفه"
         Label14.TextAlign = ContentAlignment.MiddleRight
         ' 
+
         ' Guna2Panel2
         ' 
         Guna2Panel2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Right
@@ -219,6 +293,90 @@ Partial Class frm_Items
         Guna2Panel2.Location = New Point(401, 253)
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        '=======
+        '        ' txt_ItemLastPriceP
+        '        ' 
+        '        txt_ItemLastPriceP.Animated = True
+        '        txt_ItemLastPriceP.BorderRadius = 10
+        '        txt_ItemLastPriceP.CustomizableEdges = CustomizableEdges7
+        '        txt_ItemLastPriceP.DefaultText = ""
+        '        txt_ItemLastPriceP.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        '        txt_ItemLastPriceP.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        '        txt_ItemLastPriceP.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        '        txt_ItemLastPriceP.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        '        txt_ItemLastPriceP.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
+        '        txt_ItemLastPriceP.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        '        txt_ItemLastPriceP.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        '        txt_ItemLastPriceP.ForeColor = Color.White
+        '        txt_ItemLastPriceP.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        '        txt_ItemLastPriceP.Location = New Point(19, 58)
+        '        txt_ItemLastPriceP.Name = "txt_ItemLastPriceP"
+        '        txt_ItemLastPriceP.PlaceholderText = ""
+        '        txt_ItemLastPriceP.ReadOnly = True
+        '        txt_ItemLastPriceP.SelectedText = ""
+        '        txt_ItemLastPriceP.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        '        txt_ItemLastPriceP.Size = New Size(130, 30)
+        '        txt_ItemLastPriceP.TabIndex = 14
+        '        txt_ItemLastPriceP.TextAlign = HorizontalAlignment.Center
+        '        ' 
+        '        ' Label13
+        '        ' 
+        '        Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        '        Label13.AutoSize = True
+        '        Label13.Location = New Point(184, 61)
+        '        Label13.Name = "Label13"
+        '        Label13.Size = New Size(83, 24)
+        '        Label13.TabIndex = 15
+        '        Label13.Text = "سعر أخر شراء"
+        '        Label13.TextAlign = ContentAlignment.MiddleRight
+        '        ' 
+        '        ' txt_ItemLastPriceS
+        '        ' 
+        '        txt_ItemLastPriceS.Animated = True
+        '        txt_ItemLastPriceS.BorderRadius = 10
+        '        txt_ItemLastPriceS.CustomizableEdges = CustomizableEdges9
+        '        txt_ItemLastPriceS.DefaultText = ""
+        '        txt_ItemLastPriceS.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        '        txt_ItemLastPriceS.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        '        txt_ItemLastPriceS.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        '        txt_ItemLastPriceS.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        '        txt_ItemLastPriceS.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
+        '        txt_ItemLastPriceS.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        '        txt_ItemLastPriceS.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        '        txt_ItemLastPriceS.ForeColor = Color.White
+        '        txt_ItemLastPriceS.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        '        txt_ItemLastPriceS.Location = New Point(19, 22)
+        '        txt_ItemLastPriceS.Name = "txt_ItemLastPriceS"
+        '        txt_ItemLastPriceS.PlaceholderText = ""
+        '        txt_ItemLastPriceS.ReadOnly = True
+        '        txt_ItemLastPriceS.SelectedText = ""
+        '        txt_ItemLastPriceS.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        '        txt_ItemLastPriceS.Size = New Size(130, 30)
+        '        txt_ItemLastPriceS.TabIndex = 14
+        '        txt_ItemLastPriceS.TextAlign = HorizontalAlignment.Center
+        '        ' 
+        '        ' Label12
+        '        ' 
+        '        Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        '        Label12.AutoSize = True
+        '        Label12.Location = New Point(194, 25)
+        '        Label12.Name = "Label12"
+        '        Label12.Size = New Size(73, 24)
+        '        Label12.TabIndex = 15
+        '        Label12.Text = "سعر أخر بيع"
+        '        Label12.TextAlign = ContentAlignment.MiddleRight
+        '        ' 
+        '        ' Guna2Panel2
+        '        ' 
+        '        Guna2Panel2.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        '        Guna2Panel2.AutoScroll = True
+        '        Guna2Panel2.BorderRadius = 20
+        '        Guna2Panel2.Controls.Add(dgv_ItemsMove)
+        '        Guna2Panel2.CustomizableEdges = CustomizableEdges11
+        '        Guna2Panel2.Location = New Point(401, 253)
+        '        Guna2Panel2.Name = "Guna2Panel2"
+        '        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Guna2Panel2.Size = New Size(919, 342)
         Guna2Panel2.TabIndex = 1
         ' 
@@ -228,26 +386,33 @@ Partial Class frm_Items
         dgv_ItemsMove.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = Color.White
         dgv_ItemsMove.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+
         dgv_ItemsMove.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+
         dgv_ItemsMove.BackgroundColor = Color.FromArgb(CByte(163), CByte(223), CByte(187))
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9.0F)
         DataGridViewCellStyle2.ForeColor = Color.White
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
         dgv_ItemsMove.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+
         dgv_ItemsMove.ColumnHeadersHeight = 30
+        '=======
+        '        dgv_ItemsMove.ColumnHeadersHeight = 4
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         dgv_ItemsMove.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9.0F)
         DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgv_ItemsMove.DefaultCellStyle = DataGridViewCellStyle3
+
         dgv_ItemsMove.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgv_ItemsMove.Location = New Point(14, 2)
         dgv_ItemsMove.Name = "dgv_ItemsMove"
@@ -255,6 +420,15 @@ Partial Class frm_Items
         dgv_ItemsMove.RightToLeft = RightToLeft.Yes
         dgv_ItemsMove.RowHeadersVisible = False
         dgv_ItemsMove.Size = New Size(901, 323)
+        '=======
+        '        dgv_ItemsMove.Dock = DockStyle.Fill
+        '        dgv_ItemsMove.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        '        dgv_ItemsMove.Location = New Point(0, 0)
+        '        dgv_ItemsMove.Name = "dgv_ItemsMove"
+        '        dgv_ItemsMove.ReadOnly = True
+        '        dgv_ItemsMove.RowHeadersVisible = False
+        '        dgv_ItemsMove.Size = New Size(919, 342)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         dgv_ItemsMove.TabIndex = 2
         dgv_ItemsMove.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgv_ItemsMove.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -265,19 +439,24 @@ Partial Class frm_Items
         dgv_ItemsMove.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgv_ItemsMove.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         dgv_ItemsMove.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgv_ItemsMove.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
+        dgv_ItemsMove.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9.0F)
         dgv_ItemsMove.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgv_ItemsMove.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+
         dgv_ItemsMove.ThemeStyle.HeaderStyle.Height = 30
+        '=======
+        '        dgv_ItemsMove.ThemeStyle.HeaderStyle.Height = 4
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         dgv_ItemsMove.ThemeStyle.ReadOnly = True
         dgv_ItemsMove.ThemeStyle.RowsStyle.BackColor = Color.White
         dgv_ItemsMove.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgv_ItemsMove.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
+        dgv_ItemsMove.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9.0F)
         dgv_ItemsMove.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         dgv_ItemsMove.ThemeStyle.RowsStyle.Height = 25
         dgv_ItemsMove.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgv_ItemsMove.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         ' 
+
         ' panal_iteminfo
         ' 
         panal_iteminfo.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
@@ -301,19 +480,54 @@ Partial Class frm_Items
         panal_iteminfo.Controls.Add(Label4)
         panal_iteminfo.Controls.Add(Label3)
         panal_iteminfo.FillColor = Color.FromArgb(CByte(178), CByte(213), CByte(159))
-        panal_iteminfo.Font = New Font("Cairo", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        panal_iteminfo.Font = New Font("Cairo", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         panal_iteminfo.Location = New Point(2, 4)
         panal_iteminfo.Name = "panal_iteminfo"
         panal_iteminfo.ShadowColor = Color.Transparent
         panal_iteminfo.Size = New Size(1321, 244)
         panal_iteminfo.TabIndex = 0
-        ' 
+        '=======
+        '        ' Guna2ShadowPanel1
+        '        ' 
+        '        Guna2ShadowPanel1.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        '        Guna2ShadowPanel1.BackColor = Color.Transparent
+        '        Guna2ShadowPanel1.Controls.Add(txt_ItemPriceSell)
+        '        Guna2ShadowPanel1.Controls.Add(txt_ItemNameEn)
+        '        Guna2ShadowPanel1.Controls.Add(txt_ItemNameAr)
+        '        Guna2ShadowPanel1.Controls.Add(Txt_itemCode)
+        '        Guna2ShadowPanel1.Controls.Add(com_ItemType4)
+        '        Guna2ShadowPanel1.Controls.Add(com_ItemType3)
+        '        Guna2ShadowPanel1.Controls.Add(com_ItemType1)
+        '        Guna2ShadowPanel1.Controls.Add(com_ItemType2)
+        '        Guna2ShadowPanel1.Controls.Add(Com_ItemUnit)
+        '        Guna2ShadowPanel1.Controls.Add(Label11)
+        '        Guna2ShadowPanel1.Controls.Add(Label10)
+        '        Guna2ShadowPanel1.Controls.Add(Label9)
+        '        Guna2ShadowPanel1.Controls.Add(Label8)
+        '        Guna2ShadowPanel1.Controls.Add(Label7)
+        '        Guna2ShadowPanel1.Controls.Add(Label6)
+        '        Guna2ShadowPanel1.Controls.Add(Label5)
+        '        Guna2ShadowPanel1.Controls.Add(Label4)
+        '        Guna2ShadowPanel1.Controls.Add(Label3)
+        '        Guna2ShadowPanel1.FillColor = Color.FromArgb(CByte(178), CByte(213), CByte(159))
+        '        Guna2ShadowPanel1.Font = New Font("Cairo", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        '        Guna2ShadowPanel1.Location = New Point(2, 4)
+        '        Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
+        '        Guna2ShadowPanel1.ShadowColor = Color.Transparent
+        '        Guna2ShadowPanel1.Size = New Size(1321, 244)
+        '        Guna2ShadowPanel1.TabIndex = 0
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
+        '        ' 
         ' txt_ItemPriceSell
         ' 
         txt_ItemPriceSell.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_ItemPriceSell.Animated = True
         txt_ItemPriceSell.BorderRadius = 10
+
         txt_ItemPriceSell.CustomizableEdges = CustomizableEdges9
+        '=======
+        '        txt_ItemPriceSell.CustomizableEdges = CustomizableEdges13
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemPriceSell.DefaultText = ""
         txt_ItemPriceSell.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_ItemPriceSell.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -321,14 +535,18 @@ Partial Class frm_Items
         txt_ItemPriceSell.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txt_ItemPriceSell.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         txt_ItemPriceSell.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_ItemPriceSell.Font = New Font("Segoe UI", 9F)
+        txt_ItemPriceSell.Font = New Font("Segoe UI", 9.0F)
         txt_ItemPriceSell.ForeColor = Color.White
         txt_ItemPriceSell.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txt_ItemPriceSell.Location = New Point(1070, 183)
         txt_ItemPriceSell.Name = "txt_ItemPriceSell"
         txt_ItemPriceSell.PlaceholderText = ""
         txt_ItemPriceSell.SelectedText = ""
+
         txt_ItemPriceSell.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        '=======
+        '        txt_ItemPriceSell.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemPriceSell.Size = New Size(130, 30)
         txt_ItemPriceSell.TabIndex = 4
         txt_ItemPriceSell.TextAlign = HorizontalAlignment.Center
@@ -338,7 +556,11 @@ Partial Class frm_Items
         txt_ItemNameEn.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_ItemNameEn.Animated = True
         txt_ItemNameEn.BorderRadius = 10
+
         txt_ItemNameEn.CustomizableEdges = CustomizableEdges11
+        '=======
+        '        txt_ItemNameEn.CustomizableEdges = CustomizableEdges15
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemNameEn.DefaultText = ""
         txt_ItemNameEn.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_ItemNameEn.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -346,14 +568,18 @@ Partial Class frm_Items
         txt_ItemNameEn.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txt_ItemNameEn.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         txt_ItemNameEn.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_ItemNameEn.Font = New Font("Segoe UI", 9F)
+        txt_ItemNameEn.Font = New Font("Segoe UI", 9.0F)
         txt_ItemNameEn.ForeColor = Color.White
         txt_ItemNameEn.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txt_ItemNameEn.Location = New Point(996, 104)
         txt_ItemNameEn.Name = "txt_ItemNameEn"
         txt_ItemNameEn.PlaceholderText = ""
         txt_ItemNameEn.SelectedText = ""
+
         txt_ItemNameEn.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        '=======
+        '        txt_ItemNameEn.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemNameEn.Size = New Size(204, 30)
         txt_ItemNameEn.TabIndex = 2
         ' 
@@ -362,7 +588,11 @@ Partial Class frm_Items
         txt_ItemNameAr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_ItemNameAr.Animated = True
         txt_ItemNameAr.BorderRadius = 10
+
         txt_ItemNameAr.CustomizableEdges = CustomizableEdges13
+        '=======
+        '        txt_ItemNameAr.CustomizableEdges = CustomizableEdges17
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemNameAr.DefaultText = ""
         txt_ItemNameAr.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_ItemNameAr.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -370,14 +600,18 @@ Partial Class frm_Items
         txt_ItemNameAr.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txt_ItemNameAr.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         txt_ItemNameAr.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_ItemNameAr.Font = New Font("Segoe UI", 9F)
+        txt_ItemNameAr.Font = New Font("Segoe UI", 9.0F)
         txt_ItemNameAr.ForeColor = Color.White
         txt_ItemNameAr.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txt_ItemNameAr.Location = New Point(1020, 65)
         txt_ItemNameAr.Name = "txt_ItemNameAr"
         txt_ItemNameAr.PlaceholderText = ""
         txt_ItemNameAr.SelectedText = ""
+
         txt_ItemNameAr.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        '=======
+        '        txt_ItemNameAr.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         txt_ItemNameAr.Size = New Size(204, 30)
         txt_ItemNameAr.TabIndex = 1
         txt_ItemNameAr.TextAlign = HorizontalAlignment.Right
@@ -387,7 +621,11 @@ Partial Class frm_Items
         Txt_itemCode.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Txt_itemCode.Animated = True
         Txt_itemCode.BorderRadius = 10
+
         Txt_itemCode.CustomizableEdges = CustomizableEdges15
+        '=======
+        '        Txt_itemCode.CustomizableEdges = CustomizableEdges19
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Txt_itemCode.DefaultText = ""
         Txt_itemCode.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Txt_itemCode.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -395,14 +633,18 @@ Partial Class frm_Items
         Txt_itemCode.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Txt_itemCode.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         Txt_itemCode.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Txt_itemCode.Font = New Font("Segoe UI", 9F)
+        Txt_itemCode.Font = New Font("Segoe UI", 9.0F)
         Txt_itemCode.ForeColor = Color.White
         Txt_itemCode.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Txt_itemCode.Location = New Point(1021, 26)
         Txt_itemCode.Name = "Txt_itemCode"
         Txt_itemCode.PlaceholderText = ""
         Txt_itemCode.SelectedText = ""
+
         Txt_itemCode.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        '=======
+        '        Txt_itemCode.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Txt_itemCode.Size = New Size(204, 30)
         Txt_itemCode.TabIndex = 0
         Txt_itemCode.TextAlign = HorizontalAlignment.Center
@@ -411,18 +653,31 @@ Partial Class frm_Items
         ' 
         com_ItemType4.BackColor = Color.Transparent
         com_ItemType4.BorderRadius = 10
+
         com_ItemType4.CustomizableEdges = CustomizableEdges17
+        '=======
+        '        com_ItemType4.CustomizableEdges = CustomizableEdges21
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType4.DrawMode = DrawMode.OwnerDrawFixed
         com_ItemType4.DropDownStyle = ComboBoxStyle.DropDownList
         com_ItemType4.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         com_ItemType4.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         com_ItemType4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+
         com_ItemType4.Font = New Font("Cairo", 9.75F, FontStyle.Bold)
         com_ItemType4.ForeColor = Color.White
         com_ItemType4.ItemHeight = 30
         com_ItemType4.Location = New Point(462, 140)
         com_ItemType4.Name = "com_ItemType4"
         com_ItemType4.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        '=======
+        '        com_ItemType4.Font = New Font("Segoe UI", 10F)
+        '        com_ItemType4.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        '        com_ItemType4.ItemHeight = 30
+        '        com_ItemType4.Location = New Point(462, 140)
+        '        com_ItemType4.Name = "com_ItemType4"
+        '        com_ItemType4.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType4.Size = New Size(235, 36)
         com_ItemType4.TabIndex = 8
         ' 
@@ -430,18 +685,31 @@ Partial Class frm_Items
         ' 
         com_ItemType3.BackColor = Color.Transparent
         com_ItemType3.BorderRadius = 10
+
         com_ItemType3.CustomizableEdges = CustomizableEdges19
+        '=======
+        '        com_ItemType3.CustomizableEdges = CustomizableEdges23
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType3.DrawMode = DrawMode.OwnerDrawFixed
         com_ItemType3.DropDownStyle = ComboBoxStyle.DropDownList
         com_ItemType3.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         com_ItemType3.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         com_ItemType3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+
         com_ItemType3.Font = New Font("Cairo", 9.75F, FontStyle.Bold)
         com_ItemType3.ForeColor = Color.White
         com_ItemType3.ItemHeight = 30
         com_ItemType3.Location = New Point(462, 101)
         com_ItemType3.Name = "com_ItemType3"
         com_ItemType3.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        '=======
+        '        com_ItemType3.Font = New Font("Segoe UI", 10F)
+        '        com_ItemType3.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        '        com_ItemType3.ItemHeight = 30
+        '        com_ItemType3.Location = New Point(462, 101)
+        '        com_ItemType3.Name = "com_ItemType3"
+        '        com_ItemType3.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType3.Size = New Size(235, 36)
         com_ItemType3.TabIndex = 7
         ' 
@@ -449,18 +717,31 @@ Partial Class frm_Items
         ' 
         com_ItemType1.BackColor = Color.Transparent
         com_ItemType1.BorderRadius = 10
+
         com_ItemType1.CustomizableEdges = CustomizableEdges21
+        '=======
+        '        com_ItemType1.CustomizableEdges = CustomizableEdges25
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType1.DrawMode = DrawMode.OwnerDrawFixed
         com_ItemType1.DropDownStyle = ComboBoxStyle.DropDownList
         com_ItemType1.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         com_ItemType1.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         com_ItemType1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+
         com_ItemType1.Font = New Font("Cairo", 9.75F, FontStyle.Bold)
         com_ItemType1.ForeColor = Color.White
         com_ItemType1.ItemHeight = 30
         com_ItemType1.Location = New Point(462, 23)
         com_ItemType1.Name = "com_ItemType1"
         com_ItemType1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        '=======
+        '        com_ItemType1.Font = New Font("Segoe UI", 10F)
+        '        com_ItemType1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        '        com_ItemType1.ItemHeight = 30
+        '        com_ItemType1.Location = New Point(462, 23)
+        '        com_ItemType1.Name = "com_ItemType1"
+        '        com_ItemType1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType1.Size = New Size(235, 36)
         com_ItemType1.TabIndex = 5
         ' 
@@ -469,6 +750,9 @@ Partial Class frm_Items
         com_ItemType2.BackColor = Color.Transparent
         com_ItemType2.BorderRadius = 10
         com_ItemType2.CustomizableEdges = CustomizableEdges23
+        '=======
+        '        com_ItemType2.CustomizableEdges = CustomizableEdges27
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType2.DrawMode = DrawMode.OwnerDrawFixed
         com_ItemType2.DropDownStyle = ComboBoxStyle.DropDownList
         com_ItemType2.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
@@ -480,6 +764,14 @@ Partial Class frm_Items
         com_ItemType2.Location = New Point(462, 62)
         com_ItemType2.Name = "com_ItemType2"
         com_ItemType2.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        '=======
+        '        com_ItemType2.Font = New Font("Segoe UI", 10F)
+        '        com_ItemType2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        '        com_ItemType2.ItemHeight = 30
+        '        com_ItemType2.Location = New Point(462, 62)
+        '        com_ItemType2.Name = "com_ItemType2"
+        '        com_ItemType2.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         com_ItemType2.Size = New Size(235, 36)
         com_ItemType2.TabIndex = 6
         ' 
@@ -489,17 +781,24 @@ Partial Class frm_Items
         Com_ItemUnit.BackColor = Color.Transparent
         Com_ItemUnit.BorderRadius = 10
         Com_ItemUnit.CustomizableEdges = CustomizableEdges25
+        '=======
+        '        Com_ItemUnit.CustomizableEdges = CustomizableEdges29
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Com_ItemUnit.DrawMode = DrawMode.OwnerDrawFixed
         Com_ItemUnit.DropDownStyle = ComboBoxStyle.DropDownList
         Com_ItemUnit.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         Com_ItemUnit.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Com_ItemUnit.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Com_ItemUnit.Font = New Font("Segoe UI", 10F)
+        Com_ItemUnit.Font = New Font("Segoe UI", 10.0F)
         Com_ItemUnit.ForeColor = Color.White
         Com_ItemUnit.ItemHeight = 30
         Com_ItemUnit.Location = New Point(1049, 140)
         Com_ItemUnit.Name = "Com_ItemUnit"
+
         Com_ItemUnit.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        '=======
+        '        Com_ItemUnit.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         Com_ItemUnit.Size = New Size(160, 36)
         Com_ItemUnit.TabIndex = 3
         Com_ItemUnit.TextAlign = HorizontalAlignment.Center
@@ -612,7 +911,7 @@ Partial Class frm_Items
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Cairo Black", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Cairo Black", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label2.Location = New Point(12, 45)
         Label2.Name = "Label2"
         Label2.Size = New Size(115, 30)
@@ -621,20 +920,33 @@ Partial Class frm_Items
         ' 
         ' UC_cur1
         ' 
+
         UC_cur1.Anchor = AnchorStyles.Top
         UC_cur1.BackColor = Color.Transparent
         UC_cur1.ColorCur = Color.Transparent
-        UC_cur1.colorToolstrip = Color.Transparent
+        'UC_cur1.BorderStyle = BorderStyle.Fixed3D
+        UC_cur1.ColorToolstrip = Color.Transparent
         UC_cur1.Cur1 = Nothing
         UC_cur1.Location = New Point(459, 8)
         UC_cur1.Margin = New Padding(4, 3, 4, 3)
         UC_cur1.Name = "UC_cur1"
         UC_cur1.Size = New Size(472, 78)
+        '=======
+        '        UC_cur1.BackColor = Color.Transparent
+        '        UC_cur1.BorderStyle = BorderStyle.Fixed3D
+        '        UC_cur1.ColorCur = Color.Transparent
+        '        UC_cur1.colorToolstrip = Color.Transparent
+        '        UC_cur1.Cur1 = Nothing
+        '        UC_cur1.Location = New Point(351, 8)
+        '        UC_cur1.Margin = New Padding(4, 3, 4, 3)
+        '        UC_cur1.Name = "UC_cur1"
+        '        UC_cur1.Size = New Size(492, 80)
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         UC_cur1.TabIndex = 3
         ' 
         ' frm_Items
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         AutoSize = True
         BackColor = Color.FromArgb(CByte(163), CByte(223), CByte(187))
@@ -655,15 +967,24 @@ Partial Class frm_Items
         Guna2ShadowPanel2.PerformLayout()
         Guna2Panel2.ResumeLayout(False)
         CType(dgv_ItemsMove, ComponentModel.ISupportInitialize).EndInit()
+
         panal_iteminfo.ResumeLayout(False)
         panal_iteminfo.PerformLayout()
+        '=======
+        'Guna2ShadowPanel1.ResumeLayout(False)
+        'Guna2ShadowPanel1.PerformLayout()
+        '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+
     Friend WithEvents panal_iteminfo As Guna.UI2.WinForms.Guna2ShadowPanel
+    '=======
+    Friend WithEvents Guna2ShadowPanel1 As Guna.UI2.WinForms.Guna2ShadowPanel
+    '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
@@ -684,6 +1005,10 @@ Partial Class frm_Items
     Friend WithEvents txt_ItemNameEn As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txt_ItemNameAr As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents com_ItemType1 As Guna.UI2.WinForms.Guna2ComboBox
+    '<<<<<<< HEAD
+    '=======
+    Friend WithEvents UC_cur1 As UC_CUR
+    '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents dgv_ItemsMove As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
@@ -691,5 +1016,12 @@ Partial Class frm_Items
     Friend WithEvents Label15 As Label
     Friend WithEvents txt_ItemAvgCost As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label14 As Label
-    Friend WithEvents UC_cur1 As UC_CUR
+
+    'Friend WithEvents UC_cur1 As UC_CUR
+    '=======
+    Friend WithEvents txt_ItemLastPriceP As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents txt_ItemLastPriceS As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label12 As Label
+    '>>>>>>> 2e491486866439f2152c22a807e9bef3b0c02280
 End Class
