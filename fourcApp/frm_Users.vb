@@ -156,7 +156,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID1.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID1.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID7_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID7.CheckedChanged
@@ -164,7 +164,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID7.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID7.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID5_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID5.CheckedChanged
@@ -172,7 +172,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID5.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID5.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID19_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID19.CheckedChanged
@@ -180,7 +180,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID19.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID19.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID16_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID16.CheckedChanged
@@ -188,7 +188,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID16.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID16.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID22_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID22.CheckedChanged
@@ -196,7 +196,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID22.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID22.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID25_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID25.CheckedChanged
@@ -204,7 +204,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID25.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID25.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID13_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID13.CheckedChanged
@@ -212,7 +212,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID13.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID13.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID10_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID10.CheckedChanged
@@ -220,7 +220,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID10.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID10.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID29_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID29.CheckedChanged
@@ -228,7 +228,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID29.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID29.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID8_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID8.CheckedChanged
@@ -236,7 +236,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID8.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID8.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID20_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID20.CheckedChanged
@@ -244,7 +244,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID20.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID20.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID17_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID17.CheckedChanged
@@ -252,7 +252,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID17.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID17.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID23_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID23.CheckedChanged
@@ -260,7 +260,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID23.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID23.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID26_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID26.CheckedChanged
@@ -268,7 +268,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID26.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID26.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID14_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID14.CheckedChanged
@@ -276,7 +276,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID14.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID14.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID11_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID11.CheckedChanged
@@ -284,7 +284,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID11.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID11.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID30_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID30.CheckedChanged
@@ -292,7 +292,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID30.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID30.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID9_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID9.CheckedChanged
@@ -300,7 +300,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID9.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID9.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID21_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID21.CheckedChanged
@@ -308,7 +308,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID21.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID21.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID18_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID18.CheckedChanged
@@ -316,7 +316,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID18.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID18.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID24_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID24.CheckedChanged
@@ -324,7 +324,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID24.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID24.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID27_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID27.CheckedChanged
@@ -332,7 +332,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID27.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID27.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID15_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID15.CheckedChanged
@@ -340,7 +340,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID15.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID15.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID12_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID12.CheckedChanged
@@ -348,7 +348,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID12.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID12.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID31_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID31.CheckedChanged
@@ -356,7 +356,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID31.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID31.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID6_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID6.CheckedChanged
@@ -364,7 +364,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID6.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID6.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID36_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID36.CheckedChanged
@@ -372,7 +372,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID36.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID36.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID35_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID35.CheckedChanged
@@ -380,7 +380,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID35.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID35.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID34_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID34.CheckedChanged
@@ -388,7 +388,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID34.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID34.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID33_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID33.CheckedChanged
@@ -396,7 +396,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID33.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID33.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID28_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID28.CheckedChanged
@@ -404,7 +404,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID28.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID28.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
     Private Sub swt_ID32_CheckedChanged(sender As Object, e As EventArgs) Handles swt_ID32.CheckedChanged
@@ -412,7 +412,7 @@ user_IsActive:=swt_UsersActive.Checked
         Users.Permission_type1.UserType_Name = Label_ID32.Text
         Users.User_Permission1.UserPer_ISActive = swt_ID32.Checked
         Users.UpdateUserPermission()
-        Isloading = True
+        Isloading = False
     End Sub
 
 

@@ -111,7 +111,7 @@ Partial Class Form1
         Panal_Login.ShadowDepth = 30
         Panal_Login.ShadowShift = 10
         Panal_Login.Size = New Size(233, 256)
-        Panal_Login.TabIndex = 2
+        Panal_Login.TabIndex = 0
         ' 
         ' lbl_Forget
         ' 
@@ -249,7 +249,7 @@ Partial Class Form1
         Panal_ChangePassword.Controls.Add(txt_Change_userName)
         Panal_ChangePassword.FillColor = Color.Transparent
         Panal_ChangePassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Panal_ChangePassword.Location = New Point(269, 37)
+        Panal_ChangePassword.Location = New Point(489, 47)
         Panal_ChangePassword.Name = "Panal_ChangePassword"
         Panal_ChangePassword.ShadowColor = Color.White
         Panal_ChangePassword.ShadowDepth = 30

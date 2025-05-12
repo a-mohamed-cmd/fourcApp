@@ -30,7 +30,7 @@ Public Class Cls_Accounts
     ' المتغيرات الخاصة
     Private _AccountSub_ID As Integer
     Private _AccountSub_Code As String
-    Private _account_gen As Accounts_General
+    Private _account_gen As New Accounts_General
     Private _AccountSub_Name As String
         Private _AccountSub_ISActive As Boolean
 

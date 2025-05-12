@@ -12,6 +12,11 @@ Public Class GeneralForm
     End Sub
 
     Private Sub OpenFile(ByVal sender As Object, ByVal e As EventArgs) Handles OpenToolStripMenuItem.Click
+        'صفحه بطاقة الموردين
+        frm_Supplier.MdiParent = Me
+        frm_Supplier.Dock = DockStyle.Fill
+        frm_Supplier.Txt_SupplierCode.Focus()
+        frm_Supplier.Show()
     End Sub
     Private Sub SaveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaveToolStripMenuItem.Click
         'صفحه بطاقة العملاء
@@ -91,5 +96,92 @@ Public Class GeneralForm
         End If
     End Sub
 
+    Private Sub سندمشترياتToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles سندمشترياتToolStripMenuItem.Click
+        'صفحه بطاقة سند مشتريات
+        frm_PurchaseReceipt.MdiParent = Me
+        frm_PurchaseReceipt.Dock = DockStyle.Fill
+        frm_PurchaseReceipt.txt_SupplierCode.Focus()
+        frm_PurchaseReceipt.Show()
+    End Sub
 
+    Private Sub سندمبيعاتToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles سندمبيعاتToolStripMenuItem.Click
+        'صفحه بطاقة سند المبيعات
+        Frm_SallesReceipt.MdiParent = Me
+        Frm_SallesReceipt.Dock = DockStyle.Fill
+        Frm_SallesReceipt.Txt_SallesCode.Focus()
+        Frm_SallesReceipt.Show()
+    End Sub
+
+    Private Sub سندتحويلToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles سندتحويلToolStripMenuItem.Click
+        'صفحه بطاقة سند تحويلات
+        frm_TransReceipt.MdiParent = Me
+        frm_TransReceipt.Dock = DockStyle.Fill
+        frm_TransReceipt.Txt_TransCode.Focus()
+        frm_TransReceipt.Show()
+    End Sub
+
+    Private Sub سندإهـــلاكToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles سندإهـــلاكToolStripMenuItem.Click
+        'صفحه بطاقة سند اهلاك
+        frm_DepreciationReceipt.MdiParent = Me
+        frm_DepreciationReceipt.Dock = DockStyle.Fill
+        frm_DepreciationReceipt.Txt_DepreciationCode.Focus()
+        frm_DepreciationReceipt.Show()
+    End Sub
+
+    Private Sub المخازنToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles المخازنToolStripMenuItem.Click
+        'صفحه بطاقة مخازن
+        frm_store.MdiParent = Me
+        frm_store.Dock = DockStyle.Fill
+        frm_store.txt_StoreName.Focus()
+        frm_store.Show()
+    End Sub
+
+    Private Sub الوحــــــــداتToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles الوحــــــــداتToolStripMenuItem.Click
+        'صفحه بطاقة الوحدات
+        frm_Unit.MdiParent = Me
+        frm_Unit.StartPosition = FormStartPosition.CenterScreen
+        frm_Unit.txt_UnitName.Focus()
+        frm_Unit.Show()
+    End Sub
+
+    Private Sub الأقسامToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles الأقسامToolStripMenuItem.Click
+        'صفحه بطاقة الانواع
+        frm_Categorys.MdiParent = Me
+        'frm_Categorys.Dock = DockStyle.Fill
+        frm_Categorys.StartPosition = FormStartPosition.CenterScreen
+        frm_Categorys.txt_DepartmentName.Focus()
+        frm_Categorys.Show()
+    End Sub
+
+    Private Sub تقاريرالمخازنToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles تقاريرالمخازنToolStripMenuItem.Click
+        'صفحه بطاقة المخزن
+        frm_Stores.MdiParent = Me
+        frm_Stores.Dock = DockStyle.Fill
+        frm_Stores.txt_ItemCode.Focus()
+        frm_Stores.Show()
+    End Sub
+
+    Private Sub UndoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UndoToolStripMenuItem.Click
+        'صفحه بطاقة شجره الحسابات
+        frm_Accounts.MdiParent = Me
+        frm_Accounts.Dock = DockStyle.Fill
+        frm_Accounts.txt_AccountGeneralNameEn.Focus()
+        frm_Accounts.Show()
+    End Sub
+
+    Private Sub RedoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RedoToolStripMenuItem.Click
+        'صفحه بطاقة المصروفات
+        frm_Payments.MdiParent = Me
+        frm_Payments.Dock = DockStyle.Fill
+        frm_Payments.Txt_PaymentCode.Focus()
+        frm_Payments.Show()
+    End Sub
+
+    Private Sub ToolBarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ToolBarToolStripMenuItem.Click
+        'صفحه بطاقة المتسخدمين
+        Frm_Users.MdiParent = Me
+        Frm_Users.Dock = DockStyle.Fill
+        Frm_Users.txt_UserName.Focus()
+        Frm_Users.Show()
+    End Sub
 End Class

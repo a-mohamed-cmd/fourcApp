@@ -104,7 +104,7 @@ Partial Class GeneralForm
         MenuStrip.MdiWindowListItem = WindowsMenu
         MenuStrip.Name = "MenuStrip"
         MenuStrip.Padding = New Padding(8, 2, 0, 2)
-        MenuStrip.Size = New Size(364, 24)
+        MenuStrip.Size = New Size(484, 24)
         MenuStrip.TabIndex = 5
         MenuStrip.Text = "MenuStrip"
         ' 
@@ -122,7 +122,7 @@ Partial Class GeneralForm
         NewToolStripMenuItem.ImageTransparentColor = Color.Black
         NewToolStripMenuItem.Name = "NewToolStripMenuItem"
         NewToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.N
-        NewToolStripMenuItem.Size = New Size(180, 22)
+        NewToolStripMenuItem.Size = New Size(177, 22)
         NewToolStripMenuItem.Text = "بطاقة صنف"
         ' 
         ' OpenToolStripMenuItem
@@ -131,13 +131,13 @@ Partial Class GeneralForm
         OpenToolStripMenuItem.ImageTransparentColor = Color.Black
         OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
         OpenToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.O
-        OpenToolStripMenuItem.Size = New Size(180, 22)
+        OpenToolStripMenuItem.Size = New Size(177, 22)
         OpenToolStripMenuItem.Text = "الموردين"
         ' 
         ' ToolStripSeparator3
         ' 
         ToolStripSeparator3.Name = "ToolStripSeparator3"
-        ToolStripSeparator3.Size = New Size(177, 6)
+        ToolStripSeparator3.Size = New Size(174, 6)
         ' 
         ' SaveToolStripMenuItem
         ' 
@@ -145,7 +145,7 @@ Partial Class GeneralForm
         SaveToolStripMenuItem.ImageTransparentColor = Color.Black
         SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
         SaveToolStripMenuItem.ShortcutKeys = Keys.Control Or Keys.S
-        SaveToolStripMenuItem.Size = New Size(180, 22)
+        SaveToolStripMenuItem.Size = New Size(177, 22)
         SaveToolStripMenuItem.Text = "العملاء"
         ' 
         ' SaveAsToolStripMenuItem
@@ -153,76 +153,76 @@ Partial Class GeneralForm
         SaveAsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {سندمشترياتToolStripMenuItem, سندمبيعاتToolStripMenuItem, سندتحويلToolStripMenuItem, سندإهـــلاكToolStripMenuItem})
         SaveAsToolStripMenuItem.Image = My.Resources.Resources.icons8_payments_64
         SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        SaveAsToolStripMenuItem.Size = New Size(180, 22)
+        SaveAsToolStripMenuItem.Size = New Size(177, 22)
         SaveAsToolStripMenuItem.Text = "سنــــــــــــدات"
         ' 
         ' سندمشترياتToolStripMenuItem
         ' 
         سندمشترياتToolStripMenuItem.Image = My.Resources.Resources.icons8_receipt_50
         سندمشترياتToolStripMenuItem.Name = "سندمشترياتToolStripMenuItem"
-        سندمشترياتToolStripMenuItem.Size = New Size(180, 22)
+        سندمشترياتToolStripMenuItem.Size = New Size(142, 22)
         سندمشترياتToolStripMenuItem.Text = "سند مشتريات"
         ' 
         ' سندمبيعاتToolStripMenuItem
         ' 
         سندمبيعاتToolStripMenuItem.Image = My.Resources.Resources.icons8_sales_50
         سندمبيعاتToolStripMenuItem.Name = "سندمبيعاتToolStripMenuItem"
-        سندمبيعاتToolStripMenuItem.Size = New Size(180, 22)
+        سندمبيعاتToolStripMenuItem.Size = New Size(142, 22)
         سندمبيعاتToolStripMenuItem.Text = "سند مبيعات"
         ' 
         ' سندتحويلToolStripMenuItem
         ' 
         سندتحويلToolStripMenuItem.Image = My.Resources.Resources.icons8_transfer_48
         سندتحويلToolStripMenuItem.Name = "سندتحويلToolStripMenuItem"
-        سندتحويلToolStripMenuItem.Size = New Size(180, 22)
+        سندتحويلToolStripMenuItem.Size = New Size(142, 22)
         سندتحويلToolStripMenuItem.Text = "سند تحويل"
         ' 
         ' سندإهـــلاكToolStripMenuItem
         ' 
         سندإهـــلاكToolStripMenuItem.Image = My.Resources.Resources.icons8_negative_equity_50
         سندإهـــلاكToolStripMenuItem.Name = "سندإهـــلاكToolStripMenuItem"
-        سندإهـــلاكToolStripMenuItem.Size = New Size(180, 22)
+        سندإهـــلاكToolStripMenuItem.Size = New Size(142, 22)
         سندإهـــلاكToolStripMenuItem.Text = "سند إهـــلاك"
         ' 
         ' ToolStripSeparator4
         ' 
         ToolStripSeparator4.Name = "ToolStripSeparator4"
-        ToolStripSeparator4.Size = New Size(177, 6)
+        ToolStripSeparator4.Size = New Size(174, 6)
         ' 
         ' PrintToolStripMenuItem
         ' 
         PrintToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {المخازنToolStripMenuItem, الوحــــــــداتToolStripMenuItem, الأقسامToolStripMenuItem, تقاريرالمخازنToolStripMenuItem})
         PrintToolStripMenuItem.ImageTransparentColor = Color.Black
         PrintToolStripMenuItem.Name = "PrintToolStripMenuItem"
-        PrintToolStripMenuItem.Size = New Size(180, 22)
+        PrintToolStripMenuItem.Size = New Size(177, 22)
         PrintToolStripMenuItem.Text = "المخـــــــــــــازن"
         ' 
         ' المخازنToolStripMenuItem
         ' 
         المخازنToolStripMenuItem.Image = My.Resources.Resources.icons8_store_50
         المخازنToolStripMenuItem.Name = "المخازنToolStripMenuItem"
-        المخازنToolStripMenuItem.Size = New Size(180, 22)
+        المخازنToolStripMenuItem.Size = New Size(142, 22)
         المخازنToolStripMenuItem.Text = "الفـــــــــــروع"
         ' 
         ' الوحــــــــداتToolStripMenuItem
         ' 
         الوحــــــــداتToolStripMenuItem.Image = My.Resources.Resources.icons8_unit_64
         الوحــــــــداتToolStripMenuItem.Name = "الوحــــــــداتToolStripMenuItem"
-        الوحــــــــداتToolStripMenuItem.Size = New Size(180, 22)
+        الوحــــــــداتToolStripMenuItem.Size = New Size(142, 22)
         الوحــــــــداتToolStripMenuItem.Text = "الوحــــــــدات"
         ' 
         ' الأقسامToolStripMenuItem
         ' 
         الأقسامToolStripMenuItem.Image = My.Resources.Resources.icons8_department_80
         الأقسامToolStripMenuItem.Name = "الأقسامToolStripMenuItem"
-        الأقسامToolStripMenuItem.Size = New Size(180, 22)
+        الأقسامToolStripMenuItem.Size = New Size(142, 22)
         الأقسامToolStripMenuItem.Text = "الأنـــــــــــــواع"
         ' 
         ' تقاريرالمخازنToolStripMenuItem
         ' 
         تقاريرالمخازنToolStripMenuItem.Image = My.Resources.Resources.icons8_store_48
         تقاريرالمخازنToolStripMenuItem.Name = "تقاريرالمخازنToolStripMenuItem"
-        تقاريرالمخازنToolStripMenuItem.Size = New Size(180, 22)
+        تقاريرالمخازنToolStripMenuItem.Size = New Size(142, 22)
         تقاريرالمخازنToolStripMenuItem.Text = "تقارير المخازن"
         ' 
         ' PrintPreviewToolStripMenuItem
@@ -230,24 +230,24 @@ Partial Class GeneralForm
         PrintPreviewToolStripMenuItem.Image = CType(resources.GetObject("PrintPreviewToolStripMenuItem.Image"), Image)
         PrintPreviewToolStripMenuItem.ImageTransparentColor = Color.Black
         PrintPreviewToolStripMenuItem.Name = "PrintPreviewToolStripMenuItem"
-        PrintPreviewToolStripMenuItem.Size = New Size(180, 22)
+        PrintPreviewToolStripMenuItem.Size = New Size(177, 22)
         PrintPreviewToolStripMenuItem.Text = "Print Pre&view"
         ' 
         ' PrintSetupToolStripMenuItem
         ' 
         PrintSetupToolStripMenuItem.Name = "PrintSetupToolStripMenuItem"
-        PrintSetupToolStripMenuItem.Size = New Size(180, 22)
+        PrintSetupToolStripMenuItem.Size = New Size(177, 22)
         PrintSetupToolStripMenuItem.Text = "Print Setup"
         ' 
         ' ToolStripSeparator5
         ' 
         ToolStripSeparator5.Name = "ToolStripSeparator5"
-        ToolStripSeparator5.Size = New Size(177, 6)
+        ToolStripSeparator5.Size = New Size(174, 6)
         ' 
         ' ExitToolStripMenuItem
         ' 
         ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        ExitToolStripMenuItem.Size = New Size(180, 22)
+        ExitToolStripMenuItem.Size = New Size(177, 22)
         ExitToolStripMenuItem.Text = "E&xit"
         ' 
         ' EditMenu
