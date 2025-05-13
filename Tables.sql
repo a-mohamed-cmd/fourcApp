@@ -2609,6 +2609,24 @@ delete Accounts.AccountFunction where AccFunction_Code= @FunctionCode
 end;
 go
 
+alter procedure Accounts.viewpaymentsAccounts
+as
+begin
+declare @Acc_general int;
+select @Acc_general=AccountGen_ID from Accounts.TB_AccountsGeneral 
+where AccountGen_NameAr ='المصروفات'
+
+select [AccountSub_ID]
+      ,[AccountSub_Code]
+      ,TB_AccountsSub.[AccountGen_ID]
+	,AccountGen_NameAr
+      ,[AccountSub_Name]
+      ,[AccountSub_ISActive] from [Accounts].[TB_AccountsSub]
+	  left join TB_AccountsGeneral on TB_AccountsGeneral.AccountGen_ID = TB_AccountsSub.AccountGen_ID
+	  where TB_AccountsSub.[AccountGen_ID]= @Acc_general
+end;
+go
+
 create procedure Accounts.AddNewPayment
 @paymentName nvarchar(150),
 @IsActive bit = 1

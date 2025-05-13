@@ -165,7 +165,7 @@ Public Class GeneralForm
         'صفحه بطاقة شجره الحسابات
         frm_Accounts.MdiParent = Me
         frm_Accounts.Dock = DockStyle.Fill
-        frm_Accounts.txt_AccountGeneralNameEn.Focus()
+        frm_Accounts.txt_AccountSubCode.Focus()
         frm_Accounts.Show()
     End Sub
 

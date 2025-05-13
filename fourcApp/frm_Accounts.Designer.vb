@@ -25,33 +25,27 @@ Partial Class frm_Accounts
         components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Accounts))
         Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
@@ -59,22 +53,17 @@ Partial Class frm_Accounts
         dgv_ItemsMove = New Guna.UI2.WinForms.Guna2DataGridView()
         Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Grp_AccountSub = New Guna.UI2.WinForms.Guna2GroupBox()
-        txt_AccountSubNameEn = New Guna.UI2.WinForms.Guna2TextBox()
         txt_AccountSubName = New Guna.UI2.WinForms.Guna2TextBox()
-        Btn_AccountSubAdd = New Guna.UI2.WinForms.Guna2GradientButton()
         txt_AccountSubCode = New Guna.UI2.WinForms.Guna2TextBox()
         swt_AccontSubActive = New Guna.UI2.WinForms.Guna2ToggleSwitch()
         Label3 = New Label()
         Label11 = New Label()
         Label16 = New Label()
-        Label17 = New Label()
         Grp_AccountGeneral = New Guna.UI2.WinForms.Guna2GroupBox()
-        txt_AccountGeneralNameEn = New Guna.UI2.WinForms.Guna2TextBox()
         txt_AccountGeneralNameAr = New Guna.UI2.WinForms.Guna2TextBox()
         Txt_AccountGeneralCode = New Guna.UI2.WinForms.Guna2TextBox()
         Label6 = New Label()
         Label5 = New Label()
-        Label4 = New Label()
         Label1 = New Label()
         Label2 = New Label()
         Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(components)
@@ -107,10 +96,10 @@ Partial Class frm_Accounts
         Guna2Panel1.BorderRadius = 10
         Guna2Panel1.Controls.Add(Guna2Panel2)
         Guna2Panel1.Controls.Add(Guna2ShadowPanel1)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges25
+        Guna2Panel1.CustomizableEdges = CustomizableEdges19
         Guna2Panel1.Location = New Point(0, 94)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2Panel1.Size = New Size(1327, 603)
         Guna2Panel1.TabIndex = 0
         ' 
@@ -200,57 +189,30 @@ Partial Class frm_Accounts
         ' 
         Grp_AccountSub.BorderRadius = 10
         Grp_AccountSub.BorderThickness = 4
-        Grp_AccountSub.Controls.Add(txt_AccountSubNameEn)
         Grp_AccountSub.Controls.Add(txt_AccountSubName)
-        Grp_AccountSub.Controls.Add(Btn_AccountSubAdd)
         Grp_AccountSub.Controls.Add(txt_AccountSubCode)
         Grp_AccountSub.Controls.Add(swt_AccontSubActive)
         Grp_AccountSub.Controls.Add(Label3)
         Grp_AccountSub.Controls.Add(Label11)
         Grp_AccountSub.Controls.Add(Label16)
-        Grp_AccountSub.Controls.Add(Label17)
-        Grp_AccountSub.CustomizableEdges = CustomizableEdges15
+        Grp_AccountSub.CustomizableEdges = CustomizableEdges11
         Grp_AccountSub.FillColor = Color.Transparent
         Grp_AccountSub.Font = New Font("Cairo SemiBold", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Grp_AccountSub.ForeColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
-        Grp_AccountSub.Location = New Point(328, 11)
+        Grp_AccountSub.Location = New Point(444, 11)
         Grp_AccountSub.Name = "Grp_AccountSub"
-        Grp_AccountSub.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Grp_AccountSub.Size = New Size(566, 202)
+        Grp_AccountSub.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Grp_AccountSub.Size = New Size(450, 202)
         Grp_AccountSub.TabIndex = 1
         Grp_AccountSub.Text = "بيانات الحساب الفرعي"
         Grp_AccountSub.TextAlign = HorizontalAlignment.Right
-        ' 
-        ' txt_AccountSubNameEn
-        ' 
-        txt_AccountSubNameEn.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        txt_AccountSubNameEn.Animated = True
-        txt_AccountSubNameEn.BorderRadius = 10
-        txt_AccountSubNameEn.CustomizableEdges = CustomizableEdges5
-        txt_AccountSubNameEn.DefaultText = ""
-        txt_AccountSubNameEn.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txt_AccountSubNameEn.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txt_AccountSubNameEn.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txt_AccountSubNameEn.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txt_AccountSubNameEn.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
-        txt_AccountSubNameEn.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountSubNameEn.Font = New Font("Segoe UI", 9F)
-        txt_AccountSubNameEn.ForeColor = Color.White
-        txt_AccountSubNameEn.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountSubNameEn.Location = New Point(215, 130)
-        txt_AccountSubNameEn.Name = "txt_AccountSubNameEn"
-        txt_AccountSubNameEn.PlaceholderText = ""
-        txt_AccountSubNameEn.SelectedText = ""
-        txt_AccountSubNameEn.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txt_AccountSubNameEn.Size = New Size(204, 30)
-        txt_AccountSubNameEn.TabIndex = 2
         ' 
         ' txt_AccountSubName
         ' 
         txt_AccountSubName.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_AccountSubName.Animated = True
         txt_AccountSubName.BorderRadius = 10
-        txt_AccountSubName.CustomizableEdges = CustomizableEdges7
+        txt_AccountSubName.CustomizableEdges = CustomizableEdges5
         txt_AccountSubName.DefaultText = ""
         txt_AccountSubName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_AccountSubName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -261,40 +223,21 @@ Partial Class frm_Accounts
         txt_AccountSubName.Font = New Font("Segoe UI", 9F)
         txt_AccountSubName.ForeColor = Color.White
         txt_AccountSubName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountSubName.Location = New Point(239, 91)
+        txt_AccountSubName.Location = New Point(123, 99)
         txt_AccountSubName.Name = "txt_AccountSubName"
         txt_AccountSubName.PlaceholderText = ""
         txt_AccountSubName.SelectedText = ""
-        txt_AccountSubName.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txt_AccountSubName.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         txt_AccountSubName.Size = New Size(204, 30)
         txt_AccountSubName.TabIndex = 1
         txt_AccountSubName.TextAlign = HorizontalAlignment.Right
-        ' 
-        ' Btn_AccountSubAdd
-        ' 
-        Btn_AccountSubAdd.Animated = True
-        Btn_AccountSubAdd.BorderRadius = 15
-        Btn_AccountSubAdd.CustomizableEdges = CustomizableEdges9
-        Btn_AccountSubAdd.DisabledState.BorderColor = Color.DarkGray
-        Btn_AccountSubAdd.DisabledState.CustomBorderColor = Color.DarkGray
-        Btn_AccountSubAdd.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Btn_AccountSubAdd.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Btn_AccountSubAdd.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Btn_AccountSubAdd.Font = New Font("Cairo SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Btn_AccountSubAdd.ForeColor = Color.White
-        Btn_AccountSubAdd.Location = New Point(37, 45)
-        Btn_AccountSubAdd.Name = "Btn_AccountSubAdd"
-        Btn_AccountSubAdd.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Btn_AccountSubAdd.Size = New Size(140, 45)
-        Btn_AccountSubAdd.TabIndex = 4
-        Btn_AccountSubAdd.Text = "إضافة حساب فرعي"
         ' 
         ' txt_AccountSubCode
         ' 
         txt_AccountSubCode.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_AccountSubCode.Animated = True
         txt_AccountSubCode.BorderRadius = 10
-        txt_AccountSubCode.CustomizableEdges = CustomizableEdges11
+        txt_AccountSubCode.CustomizableEdges = CustomizableEdges7
         txt_AccountSubCode.DefaultText = ""
         txt_AccountSubCode.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_AccountSubCode.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -305,12 +248,12 @@ Partial Class frm_Accounts
         txt_AccountSubCode.Font = New Font("Segoe UI", 9F)
         txt_AccountSubCode.ForeColor = Color.White
         txt_AccountSubCode.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountSubCode.Location = New Point(248, 52)
+        txt_AccountSubCode.Location = New Point(132, 60)
         txt_AccountSubCode.Name = "txt_AccountSubCode"
         txt_AccountSubCode.PlaceholderText = ""
         txt_AccountSubCode.ReadOnly = True
         txt_AccountSubCode.SelectedText = ""
-        txt_AccountSubCode.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txt_AccountSubCode.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         txt_AccountSubCode.Size = New Size(204, 30)
         txt_AccountSubCode.TabIndex = 0
         txt_AccountSubCode.TextAlign = HorizontalAlignment.Center
@@ -322,10 +265,10 @@ Partial Class frm_Accounts
         swt_AccontSubActive.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         swt_AccontSubActive.CheckedState.InnerBorderColor = Color.White
         swt_AccontSubActive.CheckedState.InnerColor = Color.White
-        swt_AccontSubActive.CustomizableEdges = CustomizableEdges13
-        swt_AccontSubActive.Location = New Point(381, 168)
+        swt_AccontSubActive.CustomizableEdges = CustomizableEdges9
+        swt_AccontSubActive.Location = New Point(265, 150)
         swt_AccontSubActive.Name = "swt_AccontSubActive"
-        swt_AccontSubActive.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        swt_AccontSubActive.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         swt_AccontSubActive.Size = New Size(35, 20)
         swt_AccontSubActive.TabIndex = 3
         swt_AccontSubActive.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -337,7 +280,7 @@ Partial Class frm_Accounts
         ' 
         Label3.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label3.AutoSize = True
-        Label3.Location = New Point(462, 54)
+        Label3.Location = New Point(346, 62)
         Label3.Name = "Label3"
         Label3.Size = New Size(81, 26)
         Label3.TabIndex = 5
@@ -348,7 +291,7 @@ Partial Class frm_Accounts
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label11.AutoSize = True
-        Label11.Location = New Point(435, 167)
+        Label11.Location = New Point(319, 149)
         Label11.Name = "Label11"
         Label11.Size = New Size(108, 26)
         Label11.TabIndex = 8
@@ -359,76 +302,39 @@ Partial Class frm_Accounts
         ' 
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label16.AutoSize = True
-        Label16.Location = New Point(448, 93)
+        Label16.Location = New Point(332, 101)
         Label16.Name = "Label16"
         Label16.Size = New Size(95, 26)
         Label16.TabIndex = 6
         Label16.Text = "اسم الحســـاب"
         Label16.TextAlign = ContentAlignment.MiddleRight
         ' 
-        ' Label17
-        ' 
-        Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label17.AutoSize = True
-        Label17.Location = New Point(434, 132)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(109, 26)
-        Label17.TabIndex = 7
-        Label17.Text = "الاسم بالانجليزي"
-        Label17.TextAlign = ContentAlignment.MiddleRight
-        ' 
         ' Grp_AccountGeneral
         ' 
         Grp_AccountGeneral.BorderRadius = 10
         Grp_AccountGeneral.BorderThickness = 4
-        Grp_AccountGeneral.Controls.Add(txt_AccountGeneralNameEn)
         Grp_AccountGeneral.Controls.Add(txt_AccountGeneralNameAr)
         Grp_AccountGeneral.Controls.Add(Txt_AccountGeneralCode)
         Grp_AccountGeneral.Controls.Add(Label6)
         Grp_AccountGeneral.Controls.Add(Label5)
-        Grp_AccountGeneral.Controls.Add(Label4)
-        Grp_AccountGeneral.CustomizableEdges = CustomizableEdges23
+        Grp_AccountGeneral.CustomizableEdges = CustomizableEdges17
         Grp_AccountGeneral.FillColor = Color.Transparent
         Grp_AccountGeneral.Font = New Font("Cairo SemiBold", 10F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Grp_AccountGeneral.ForeColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
         Grp_AccountGeneral.Location = New Point(900, 11)
         Grp_AccountGeneral.Name = "Grp_AccountGeneral"
-        Grp_AccountGeneral.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Grp_AccountGeneral.Size = New Size(398, 173)
+        Grp_AccountGeneral.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Grp_AccountGeneral.Size = New Size(398, 141)
         Grp_AccountGeneral.TabIndex = 0
         Grp_AccountGeneral.Text = "بيانات الحساب الاساسي"
         Grp_AccountGeneral.TextAlign = HorizontalAlignment.Right
-        ' 
-        ' txt_AccountGeneralNameEn
-        ' 
-        txt_AccountGeneralNameEn.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        txt_AccountGeneralNameEn.Animated = True
-        txt_AccountGeneralNameEn.BorderRadius = 10
-        txt_AccountGeneralNameEn.CustomizableEdges = CustomizableEdges17
-        txt_AccountGeneralNameEn.DefaultText = ""
-        txt_AccountGeneralNameEn.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txt_AccountGeneralNameEn.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txt_AccountGeneralNameEn.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txt_AccountGeneralNameEn.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txt_AccountGeneralNameEn.FillColor = Color.FromArgb(CByte(97), CByte(129), CByte(124))
-        txt_AccountGeneralNameEn.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountGeneralNameEn.Font = New Font("Segoe UI", 9F)
-        txt_AccountGeneralNameEn.ForeColor = Color.White
-        txt_AccountGeneralNameEn.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txt_AccountGeneralNameEn.Location = New Point(50, 130)
-        txt_AccountGeneralNameEn.Name = "txt_AccountGeneralNameEn"
-        txt_AccountGeneralNameEn.PlaceholderText = ""
-        txt_AccountGeneralNameEn.SelectedText = ""
-        txt_AccountGeneralNameEn.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        txt_AccountGeneralNameEn.Size = New Size(204, 30)
-        txt_AccountGeneralNameEn.TabIndex = 2
         ' 
         ' txt_AccountGeneralNameAr
         ' 
         txt_AccountGeneralNameAr.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txt_AccountGeneralNameAr.Animated = True
         txt_AccountGeneralNameAr.BorderRadius = 10
-        txt_AccountGeneralNameAr.CustomizableEdges = CustomizableEdges19
+        txt_AccountGeneralNameAr.CustomizableEdges = CustomizableEdges13
         txt_AccountGeneralNameAr.DefaultText = ""
         txt_AccountGeneralNameAr.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txt_AccountGeneralNameAr.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -443,7 +349,7 @@ Partial Class frm_Accounts
         txt_AccountGeneralNameAr.Name = "txt_AccountGeneralNameAr"
         txt_AccountGeneralNameAr.PlaceholderText = ""
         txt_AccountGeneralNameAr.SelectedText = ""
-        txt_AccountGeneralNameAr.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txt_AccountGeneralNameAr.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txt_AccountGeneralNameAr.Size = New Size(204, 30)
         txt_AccountGeneralNameAr.TabIndex = 1
         txt_AccountGeneralNameAr.TextAlign = HorizontalAlignment.Right
@@ -453,7 +359,7 @@ Partial Class frm_Accounts
         Txt_AccountGeneralCode.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Txt_AccountGeneralCode.Animated = True
         Txt_AccountGeneralCode.BorderRadius = 10
-        Txt_AccountGeneralCode.CustomizableEdges = CustomizableEdges21
+        Txt_AccountGeneralCode.CustomizableEdges = CustomizableEdges15
         Txt_AccountGeneralCode.DefaultText = ""
         Txt_AccountGeneralCode.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Txt_AccountGeneralCode.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -469,7 +375,7 @@ Partial Class frm_Accounts
         Txt_AccountGeneralCode.PlaceholderText = ""
         Txt_AccountGeneralCode.ReadOnly = True
         Txt_AccountGeneralCode.SelectedText = ""
-        Txt_AccountGeneralCode.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Txt_AccountGeneralCode.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Txt_AccountGeneralCode.Size = New Size(204, 30)
         Txt_AccountGeneralCode.TabIndex = 0
         Txt_AccountGeneralCode.TextAlign = HorizontalAlignment.Center
@@ -495,17 +401,6 @@ Partial Class frm_Accounts
         Label5.TabIndex = 4
         Label5.Text = "اسم الحســـاب"
         Label5.TextAlign = ContentAlignment.MiddleRight
-        ' 
-        ' Label4
-        ' 
-        Label4.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label4.AutoSize = True
-        Label4.Location = New Point(269, 132)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(109, 26)
-        Label4.TabIndex = 5
-        Label4.Text = "الاسم بالانجليزي"
-        Label4.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Label1
         ' 
@@ -538,7 +433,7 @@ Partial Class frm_Accounts
         UC_cur1.Anchor = AnchorStyles.Top
         UC_cur1.BackColor = Color.Transparent
         UC_cur1.ColorCur = Color.Transparent
-        UC_cur1.colorToolstrip = Color.Transparent
+        UC_cur1.ColorToolstrip = Color.Transparent
         UC_cur1.Cur1 = Nothing
         UC_cur1.Location = New Point(459, 8)
         UC_cur1.Margin = New Padding(4, 3, 4, 3)
@@ -587,19 +482,14 @@ Partial Class frm_Accounts
     Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
     Friend WithEvents swt_AccontSubActive As Guna.UI2.WinForms.Guna2ToggleSwitch
     Friend WithEvents UC_cur1 As UC_CUR
-    Friend WithEvents Btn_AccountSubAdd As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Grp_AccountSub As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents txt_AccountSubNameEn As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txt_AccountSubName As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txt_AccountSubCode As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
     Friend WithEvents Grp_AccountGeneral As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents txt_AccountGeneralNameEn As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txt_AccountGeneralNameAr As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Txt_AccountGeneralCode As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
 End Class
